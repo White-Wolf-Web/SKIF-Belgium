@@ -1,0 +1,42 @@
+
+.accordion {
+    --bs-accordion-active-bg: var(--primaryColor)!important;
+    --bs-accordion-active-color: var(--secondaryColor)!important;
+    --bs-accordion-bg: var(--primaryColor)!important;
+    --bs-accordion-color: whitesmoke!important;
+    --bs-accordion-border-radius: 10px !important; 
+}
+.accordion-button {
+    color:var(--secondaryColor)!important; 
+}
+.accordion-flush, .accordion-item, .accordion-button, .accordion-flush, .accordion-item, .accordion-button.collapsed  {
+    border-radius: 10px !important; 
+}
+
+.accordion-button:focus {
+box-shadow: none !important;
+}
+.accordion-item {
+background-color: var(--bs-gray-900) !important;
+margin-bottom: 10px;
+
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../ASSETS/IMAGES/Icons/chevron-down-solid-gold.webp)!important;
+
+}
+.accordion-button::after { 
+    background-image: url(../ASSETS/IMAGES/Icons/chevron-down-solid-gold.webp)!important;
+
+}
+.calendarAccordion {
+    max-width: 90%;
+    width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.calendarBody {
+    display: flex;
+}
+

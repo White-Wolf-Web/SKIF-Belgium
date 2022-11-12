@@ -1,0 +1,12 @@
+.home main section {
+    float: right;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+.japaneseKanjiSkifb {
+   text-align: center;
+   font-weight: 700;
+}

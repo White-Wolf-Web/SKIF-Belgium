@@ -1,0 +1,32 @@
+.DojoGallery {
+display: flex;
+max-width: 1000px;
+flex-wrap: wrap;
+justify-content:center;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.card {
+    margin: 18px 
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.dojoCardTitle {
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+.dojoCardInstructeur {
+    color: black;
+
+}
+.btn-primary {
+    background-color:var(--primaryColor);
+    border-color: brown;
+    float:right;
+
+}

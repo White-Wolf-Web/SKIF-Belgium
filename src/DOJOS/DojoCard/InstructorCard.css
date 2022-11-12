@@ -1,0 +1,18 @@
+.instructorCardCard {
+    background-color:white;
+    flex-direction: row;
+    height: 127px;
+    width: 300px;
+    border-color: var(--primaryColor);
+}
+.instructorCardCard-img-top {
+    width: 94px;
+    height: 125px;
+    background-color: green;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+}
+.instructorCardTitle {
+    color: var(--primaryColor);
+}

@@ -1,13 +1,55 @@
+:root {
+  --primaryColor: #840104; /* Couleur principale */
+  --primaryColorHover:#9C1B06; /* Couleur principale quand la souris passe dessus */
+  --primaryColorClick: #9C0653 ;  /* Couleur principale quand on click dessus */
+  --primaryColorNuance: #912E06; /* Couleur principale nuancé */
+  --primaryColorFonce: #6B0103; /* Couleur principale + foncé */
+  --primaryColorClair: #910104; /* Couleur principale + clair  */
+
+  --primaryColorMonochome:#D10206; /* Couleur principale version monochrome */
+  --secondaryColor: #E6C619; /* Couleur secondaire */
+  
+  --tertiaryColor: #018525; /* Couleur tertiaire  */
+  --tertiaryColorNuance : #03CF3F; /* On reste dans du vert il a un bien meilleur ratio de visibilité 5/1  */ 
+  --whiteTransparent02: rgba(255, 255, 255, 0.2); /* Blanc tres transparent */
+  --whiteTransparent06: rgba(255, 255, 255, 0.6); /* Blanc un peu transparent */
+  --grey03: rgba(0, 0, 0, 0.3); /* Gris clair transparent */
+  --grey05: rgba(0, 0, 0, 0.5); /* Gris transparent */
+  --grey07: rgba(0, 0, 0, 0.7); /* Gris foncé une pointe de transparence */
+  --grey09: rgba(0, 0, 0, 0.9); /* Noir avec une pointe de transparence */
+  --lightGreyColor: #f6f6f6;
+  --darkGreyColor: #eaeaea;
+}
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
+  background: var(--lightGreyColor);
+  overflow-x: hidden;
+  background-color: var(--lightGreyColor);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+main {
+  background-color: var(--lightGreyColor);
+  max-width: 90%;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Baskerville;
+  text-align: center;
+  font-weight: 600 !important;
+}
+p, a , li, ul {
+  font-family: Montserra, Helvetica, sans-serif;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  
+  color: var(--secondaryColor);
 }
