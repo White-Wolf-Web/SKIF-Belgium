@@ -7,12 +7,13 @@ import InstructorCard from "../DojoCard/InstructorCard";
 import InstructorsData from "../../DATAS/InstructorsData";
 import DojoSchedules from "./DojoSchedules";
 import DojoContact from "./DojoContact";
+import DojoAdress from "./DojoAdress";
 
 export default function DojoClub(props) {
     const { id } = useParams();
     const dojoClub = DojoData.findIndex((obj) => obj.id === id);
-    const instructorCardId = InstructorsData.findIndex((obj) => obj.id === id);
-
+   // const instructorCardId = InstructorsData.findIndex((obj) => obj.id === id);
+    console.log(DojoData[dojoClub].pictures);
     return (
         <main>
             <h1>{DojoData[dojoClub].club}</h1>
@@ -57,15 +58,28 @@ export default function DojoClub(props) {
                     ))}
                 />
             </div>
-<h2>Contact</h2>
+            <h2>Contact</h2>
 
+            <div className="dojoContact">
+                <DojoContact
+                    contactMail={DojoData[dojoClub].contactMail}
+                    phone={DojoData[dojoClub].phone}
+                    website={DojoData[dojoClub].website}
+                />
+            </div>
+            <h2>Adresse</h2>
+            <div className="dojoContact">
+                <DojoAdress
+                 addressStreet={DojoData[dojoClub].addressStreet}
+                 addressNumber={DojoData[dojoClub].addressNumber}
+                 addressPostalCode={DojoData[dojoClub].addressPostalCode}
+                 addressCity={DojoData[dojoClub].addressCity}
+                 province={DojoData[dojoClub].province}
+                                 />
+                                
+            </div>
             <div>
-
-            {DojoData.map(() => (
-<DojoContact 
-  contactMail={DojoData.contactMail} phone={DojoData.phone}  website={DojoData.website} 
-/>
-))}     </div>
+            </div>
         </main>
-    );
+    ) 
 }

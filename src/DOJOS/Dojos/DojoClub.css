@@ -16,5 +16,47 @@ margin-bottom: 15px;
 }
 
 .dojoShedules li:first-child {
-    font-weight: 800;
+    font-family: Baskerville;
+    font-weight: 600 !important;
+    font-size: 19px;
+}
+.dojoContact {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dojoContact li:first-child {
+    font-family: Baskerville;
+    font-weight: 600 !important;
+    font-size: 19px;
+}
+.dojoContactH3, .dojoShedulesH3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 19px;
+    margin-bottom: 0;
+    font-family: Baskerville;
+    font-weight: 600 !important;
+}
+.googleMap {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.dojoAdress {
+display: flex;
+justify-content: center;
+
+}
+
+@media all and (max-width: 768px) {  
+    .galleryInstructorDojo {
+        flex-wrap: wrap;
+    }
+
 }

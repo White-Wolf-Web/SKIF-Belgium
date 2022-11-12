@@ -1,5 +1,15 @@
 .dojoClubCarrousel{
     height: 300px !important;
-    background-color: lightseagreen!important
+    max-width: 750px;
+  margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
     ;
+}
+.carrouselImg {
+    height: 300px;
+    max-width: 750px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
 }

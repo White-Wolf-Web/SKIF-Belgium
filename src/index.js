@@ -14,6 +14,7 @@ import DojoClub from "./DOJOS/Dojos/DojoClub";
 import NotFound from "./404/NotFound";
 import InstructorCard from "./DOJOS/DojoCard/InstructorCard";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <BrowserRouter>

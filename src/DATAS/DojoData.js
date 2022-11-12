@@ -17,18 +17,27 @@ const DojoData = [
         ChiefInstructeurPic: "",
         scheduleMonday: ["Lundi: ", "19h30 à 21h00 Adultes (+13 ans) UNIQUEMENT ceintures noires"],
         scheduleTuesday: ["Mardi: ", "19h30 à 21h00 UNIQUEMENT ceintures noires"],
-        scheduleWednesday: ["Mercredi: ", "14h00 à 15h00 Débutants (+6 ans) de 15h00 à 16h00 Enfants ceinture orange et plus"],
-        scheduleThursday: ["Jeudi: ",  "19h30 à 21h00 Adultes (+13 ans)"],
-        scheduleFriday: ["Vendredi:", "19h30 à 21h00 Entraînement Kumite (minimum 12 ans et ceinture bleue)"],
-        scheduleSaturday: [ , ],
+        scheduleWednesday: [
+            "Mercredi: ",
+            "14h00 à 15h00 Débutants (+6 ans) de 15h00 à 16h00 Enfants ceinture orange et plus",
+        ],
+        scheduleThursday: ["Jeudi: ", "19h30 à 21h00 Adultes (+13 ans)"],
+        scheduleFriday: [
+            "Vendredi:",
+            "19h30 à 21h00 Entraînement Kumite (minimum 12 ans et ceinture bleue)",
+        ],
+        scheduleSaturday: [,],
         scheduleSunday: [
-       "Dimanche", "10:00 à 11:00 Enfants & Adultes Débutants Classe générale", 
-        "11:00 à 12:00 Enfants & Adultes Ceinture orange et plus Classe générale",
-        "12:00 à 13:30 Enfants & Adultes Ceintures brunes et noires Classe générale"
-],
+            "Dimanche",
+            "10:00 à 11:00 Enfants & Adultes Débutants Classe générale",
+            "11:00 à 12:00 Enfants & Adultes Ceinture orange et plus Classe générale",
+            "12:00 à 13:30 Enfants & Adultes Ceintures brunes et noires Classe générale",
+        ],
         ClubEvent: "",
         cover: "images/senseis/stephaneCastrique.jpg",
-        pictures: ["", "", ""],
+        pictures: ["/images/HombuDojo/hombu3.jpg", "/images/HombuDojo/hombu2.jpg", "/images/HombuDojo/hombu1.jpg"]
+        
+            
     },
     {
         id: "SkifClub2",
@@ -61,7 +70,7 @@ const DojoData = [
         ],
         ClubEvent: "",
         cover: "images/Senseis/achourBakkioui.jpg",
-        pictures: ["", "", ""],
+        src: "https://scontent-rtl.akamaized.net/GED/10160000/10168100/10168109_700x0.webp",
     },
     {
         id: "SkifClub3",
@@ -110,7 +119,7 @@ const DojoData = [
         ],
         ClubEvent: "",
         cover: "/images/Senseis/pimVanDerStrappen.jpg",
-        pictures: ["", "", ""],
+        src: "https://scontent-rtl.akamaized.net/GED/10160000/10168100/10168109_700x0.webp",
     },
     {
         id: "SkifClub5",
