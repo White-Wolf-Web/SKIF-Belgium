@@ -4,8 +4,15 @@ flex-direction: row;
 justify-content: space-evenly;
 margin-top: 15px;
 margin-bottom: 15px;
-
+max-width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
+.galleryInstructorDojoCard {
+    margin-left: 0;
+    margin-right: 0;
+    }
+
 
 .dojoShedules {
     background-color: transparent;
@@ -57,6 +64,11 @@ justify-content: center;
 @media all and (max-width: 768px) {  
     .galleryInstructorDojo {
         flex-wrap: wrap;
+        width: 80%;
     }
-
+    .galleryInstructorDojoCard {
+        margin-left: 8px!important;
+        margin-right: 8px!important;
+        }
 }
+

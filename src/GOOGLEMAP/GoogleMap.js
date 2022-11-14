@@ -3,6 +3,9 @@ import GoogleMapReact from 'google-map-react'
 //import './map.css'
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const handleApiLoaded = (map, maps) => {
+  // use map and maps objects
+};
 
 export default function GoogleMap(props){
   const defaultProps = {

@@ -7,7 +7,7 @@ export default function DojoCard(props) {
  
     return (
         <div className="d-flex justify-content-around">
-          <Card style={{ width: '18rem' }}>
+          <Card className='dojosCard'>
             <Card.Img variant="top" src={props.cover} />
             <Card.Body>
               <Card.Title className='dojoCardTitle'>{props.club}</Card.Title>

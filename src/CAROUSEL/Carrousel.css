@@ -1,15 +1,26 @@
-.dojoClubCarrousel{
-    height: 300px !important;
-    max-width: 750px;
-  margin-top: 15px;
+.dojoClubCarrousel {
+    height: 400px !important;
+    width: 750px;
+    max-width: 100%;
+    margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
-    ;
+    overflow: hidden;
+
 }
 .carrouselImg {
-    height: 300px;
-    max-width: 750px;
-    width: auto;
     margin-right: auto;
     margin-left: auto;
+}
+.moduleCarrousel {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+@media all and (max-width: 925px) {
+    .dojoClubCarrousel {
+       
+        height: auto!important;
+    }
 }

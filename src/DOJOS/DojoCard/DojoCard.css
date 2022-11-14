@@ -7,8 +7,9 @@ padding-left: 10px;
 padding-right: 10px;
 
 }
-.card {
-    margin: 18px 
+.dojosCard {
+    margin: 18px;
+    width:18rem;
 }
 
 a {

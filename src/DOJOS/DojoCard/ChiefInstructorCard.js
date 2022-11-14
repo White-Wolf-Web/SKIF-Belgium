@@ -2,22 +2,23 @@ import React from "react";
 import "./InstructorCard.css";
 import Card from "react-bootstrap/Card";
 
-export default function InstructorCard(props) {
+export default function ChiefInstructorCard(props) {
+
     return (
         <div className="galleryInstructorDojo">
             <div className="d-flex justify-content-around">
                 <Card className="instructorCardCard" id={props.id}>
                     <Card.Img
                         variant="top"
-                        src={props.instructeurPic}
+                        src={props.chiefInstructeurPic}
                         className="instructorCardCard-img-top"
                     />
                     <Card.Body>
-                        <Card.Title className="instructorCardTitle"> {props.instructeurPosition} </Card.Title>
+                        <Card.Title className="instructorCardTitle"> {props.ChiefInstructeurPosition} </Card.Title>
                         <Card.Text className="">
                             {" "}
-                            {props.instructeurName} <br></br>
-                            {"Grade: " + props.instructeurRank}
+                            {props.chiefInstructeurName} <br></br>
+                            {"Grade: " + props.chiefInstructeurRank}
                         </Card.Text>
                     </Card.Body>
                 </Card>

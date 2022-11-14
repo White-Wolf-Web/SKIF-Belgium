@@ -4,7 +4,8 @@ import { useParams } from "react-router-dom";
 import DojoData from "../../DATAS/DojoData";
 import Carrousel from "../../CAROUSEL/Carrousel";
 import InstructorCard from "../DojoCard/InstructorCard";
-import InstructorsData from "../../DATAS/InstructorsData";
+import ChiefInstructorCard from "../DojoCard/ChiefInstructorCard";
+
 import DojoSchedules from "./DojoSchedules";
 import DojoContact from "./DojoContact";
 import DojoAdress from "./DojoAdress";
@@ -12,25 +13,44 @@ import DojoAdress from "./DojoAdress";
 export default function DojoClub(props) {
     const { id } = useParams();
     const dojoClub = DojoData.findIndex((obj) => obj.id === id);
-   // const instructorCardId = InstructorsData.findIndex((obj) => obj.id === id);
     console.log(DojoData[dojoClub].pictures);
+    
     return (
         <main>
             <h1>{DojoData[dojoClub].club}</h1>
 
             <Carrousel />
-
+            <div>
+           
             <div className="galleryInstructorDojo">
-                {InstructorsData.map((InstructorsData) => (
-                    <InstructorCard
-                        pic={InstructorsData.pic}
-                        position={InstructorsData.position}
-                        name={InstructorsData.name}
-                        rank={InstructorsData.rank}
-                        key={id + InstructorsData.name}
+            {DojoData.map((DojoData) => (
+                    
+                    <ChiefInstructorCard className="galleryInstructorDojoCard"
+                        chiefInstructeurPic={DojoData.chiefInstructeurPic}
+                        chiefInstructeurRank={DojoData.chiefInstructeurRank}
+                        ChiefInstructeurPosition={DojoData.ChiefInstructeurPosition}
+                        chiefInstructeurName={DojoData.chiefInstructeurName}
+                        key={id + DojoData.chiefInstructeurName}
                     />
                 ))}
-            </div>
+
+
+
+                {DojoData.map((DojoData) => (
+                    
+                    <InstructorCard className="galleryInstructorDojoCard"
+                        instructeurPic={DojoData.instructeurPic}
+                        instructeurName={DojoData.instructeurName}
+                        instructeurRank={DojoData.instructeurRank}
+                        instructeurPosition={DojoData.instructeurPosition}
+
+                        key={id + DojoData.instructeurPosition}
+                    />
+                ))}
+            </div>  
+</div>
+
+
             <div className="dojoShedules">
                 {" "}
                 <h2>Horaires</h2>

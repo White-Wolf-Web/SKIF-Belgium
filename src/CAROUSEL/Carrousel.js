@@ -9,11 +9,11 @@ export default function Carrousel() {
     const dojoClub = DojoData.findIndex((obj) => obj.id === id);
 
     return (
-        <div>
+        <div className="moduleCarrousel">
             <Carousel className="dojoClubCarrousel">
            
                 <Carousel.Item>
-                    <img
+                    <img width={764} 
                         className="d-block w-100 carrouselImg"
                         src={DojoData[dojoClub].pictures[0]}
                         alt="First slide"
