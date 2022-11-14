@@ -1,6 +1,7 @@
 import React from 'react'
+import CalendarDatePicker from '../CALENDAR/CalendarDatePicker';
 
-import GoogleMap from '../GOOGLEMAP/GoogleMap';
+
 
 export default function Test() {
  
@@ -8,7 +9,7 @@ export default function Test() {
   
 
 <div className=''>
-<GoogleMap />
+<CalendarDatePicker />
 </div>
     
   );

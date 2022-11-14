@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 export default function DojoSchedules(props) {
     return (
         <div>
-            <Card style={{}}>
+            <Card >
                 <Card.Body>
                     <Card.Text>{props.scheduleMonday} </Card.Text>
                     <Card.Text>{props.scheduleTuesday}</Card.Text>

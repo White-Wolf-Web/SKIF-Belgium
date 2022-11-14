@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1001",
+        "club": "Hombu Dojo",
+        "street": "Krijgsbaan",
+        "streetNumber": "39",
+        "city": "Mortsel",
+        "postCode": "2640",
+        "province": "Province d'Anvers",
+        "country": "Belgique",
+        "Mail": ["Email: ", "stephane.castrique@gmail.com"],
+        "phone": ["Téléphone: ", "0032 478 30 16 13"],
+        "website": ["Site Web: ", "http://www.honbu-dojo.be"],
+        "chiefInstructeur": {
+            "name": "Stéphane Castrique",
+            "rank": "6e Dan",
+            "position": "Chef Instructeur",
+            "chiefInstructeurPic": "/images/Senseis/Castrique-Stephane.jpeg"
+        },
+        "instructeurs": {
+            "instructeur": {
+                "name": "Sabine Castrique",
+                "rank": "5e Dan",
+                "pic": "/images/Senseis/sabineCastrique.jpg",
+                "position": "Instructeur"
+            }
+        },
+        "shedules": {
+            "monday": ["Lundi: ", "19h30 à 21h00 Adultes (+13 ans) UNIQUEMENT ceintures noires"],
+            "tuesday": ["Mardi: ", "19h30 à 21h00 UNIQUEMENT ceintures noires"],
+            "wednesday": [
+                "Mercredi: ",
+                "14h00 à 15h00 Débutants (+6 ans) de 15h00 à 16h00 Enfants ceinture orange et plus"
+            ],
+            "thursday": ["Jeudi: ", "19h30 à 21h00 Adultes (+13 ans)"],
+            "friday": [
+                "Vendredi:",
+                "19h30 à 21h00 Entraînement Kumite (minimum 12 ans et ceinture bleue)"
+            ],
+            "saturday": [,],
+            "sunday": [
+                "Dimanche",
+                "10:00 à 11:00 Enfants & Adultes Débutants Classe générale",
+                "11:00 à 12:00 Enfants & Adultes Ceinture orange et plus Classe générale",
+                "12:00 à 13:30 Enfants & Adultes Ceintures brunes et noires Classe générale"
+            ]
+        },
+
+        "ClubEvent": "",
+        "cover": "images/senseis/stephaneCastrique.jpg",
+        "pictures": [
+            "/images/HombuDojo/test6.jpg",
+            "/images/HombuDojo/test5.jpg",
+            "/images/HombuDojo/test7.jpg"
+        ]
+    }
+]

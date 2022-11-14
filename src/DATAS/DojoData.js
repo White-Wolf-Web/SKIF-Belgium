@@ -1,6 +1,6 @@
 const DojoData = [
     {
-        id: "1001",
+       "id": "1001",
         club: "Hombu Dojo",
         addressStreet: "Krijgsbaan",
         addressNumber: "39",
@@ -8,17 +8,21 @@ const DojoData = [
         addressPostalCode: "2640",
         province: "Province d'Anvers",
         addressCountry: "Belgique",
-        contactMail: "stephane.castrique@gmail.com",
-        phone: "0032 478 30 16 13",
-        website: "http://www.honbu-dojo.be",
+        contactMail: ["Email: ", "stephane.castrique@gmail.com"],
+        phone: ["Téléphone: ", "0032 478 30 16 13"],
+        website: ["Site Web: ", "http://www.honbu-dojo.be"],
         chiefInstructeurName: "Stéphane Castrique",
         chiefInstructeurRank: "6e Dan",
         ChiefInstructeurPosition: "Chef Instructeur",
         chiefInstructeurPic: "/images/Senseis/Castrique-Stephane.jpeg",
-        instructeurName: ["Sabine Castrique"],
-        instructeurRank: ["5e Dan"],
-        instructeurPic: ["/images/Senseis/sabineCastrique.jpg"],
-        instructeurPosition: "instructeur",
+        instructeurs: {
+            instructeur: {
+                instructeurName: "Sabine Castrique",
+                instructeurRank: "5e Dan",
+                instructeurPic: "/images/Senseis/sabineCastrique.jpg",
+                instructeurPosition: "Instructeur",
+            },
+        },
         scheduleMonday: ["Lundi: ", "19h30 à 21h00 Adultes (+13 ans) UNIQUEMENT ceintures noires"],
         scheduleTuesday: ["Mardi: ", "19h30 à 21h00 UNIQUEMENT ceintures noires"],
         scheduleWednesday: [
@@ -53,22 +57,34 @@ const DojoData = [
         addressCity: "Woluwe-Saint-Lambert",
         addressPostalCode: "1200",
         province: "Province Bruxelles-Capital",
-        contactMail: "skif.poseidon@hotmail.com",
+        contactMail: ["Email: ", "skif.poseidon@hotmail.com"],
         addressCountry: "Belgium",
-        phone: "0032 488 25 65 71",
-        website: "http://skif-poseidon.com",
+        phone: ["Téléphone: ","0032 488 25 65 71"],
+        website: ["Site Web: ", "http://skif-poseidon.com"],
+       
+
+
         chiefInstructeurRank: "7e Dan",
         chiefInstructeurName: "Achour Bakkioui",
         ChiefInstructeurPosition: "Chef Instructeur",
         chiefInstructeurPic: "/images/Poseidon/AchourB.jpg",
-        instructeurName: [
-            "Eric Vermeulen"
-        ],
-        instructeurRank: ["5e Dan"],
-        instructeurPic: ["/images/Senseis/sabineCastrique.jpg"],
-        instructeurPosition: "instructeur",
+        instructeurs: {
+            instructeur: {
+                instructeurName: "Eric Vermeulen",
+                instructeurRank: "6e Dan",
+                instructeurPic: "/images/Poseidon/EricVermeulen.jpg",
+                instructeurPosition: "Instructeur",
+            },
+            instructeur2: {
+                instructeurName2: "Alexandro Notarangelo",
+                instructeurRank2: "5e Dan",
+                instructeurPic2: "/images/Poseidon/alessandroNotarangelo.jpg",
+                instructeurPosition2: "Instructeur",
+            },
+        },
+
         scheduleMonday: ["Lundi: ", "21h00 à 20h00 Adultes (+18 ans) UNIQUEMENT"],
-        scheduleTuesday: ["", ""],
+        scheduleTuesday: [,],
         scheduleWednesday: [
             "Mercredi: ",
             "18h45 à 19h45 Enfants (9 à 12 ans)",
@@ -96,6 +112,10 @@ const DojoData = [
             "/images/Poseidon/poseidon2.jpg",
             "/images/Poseidon/poseidonStageKumite.jpg",
         ],
+        center: {
+            lat: "50.843191",
+            lng: "4.4267367"
+          }
     },
     {
         id: "SkifClub3",
