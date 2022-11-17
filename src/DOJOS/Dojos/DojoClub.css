@@ -7,6 +7,7 @@ margin-bottom: 15px;
 max-width: 90%;
 margin-left: auto;
 margin-right: auto;
+flex-wrap: wrap;
 }
 .galleryInstructorDojoCard {
     margin-left: 0;
@@ -19,6 +20,7 @@ margin-right: auto;
    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 
 }
 
@@ -32,6 +34,7 @@ margin-right: auto;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 
 }
 .dojoContact li:first-child {

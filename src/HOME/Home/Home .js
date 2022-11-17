@@ -5,12 +5,12 @@ import './Home.css'
 
 export default function Home () {
   return (
-    <main> <h1>Shotokan Karate-do International Federation - Belgique</h1>
+    <main> <h1 className='homeH1'>Shotokan Karate-do International Federation - Belgique</h1>
    
     
     <div>
     <section>
-        <h2>BIENVENUE À SKIF-B</h2>
+        <h2>Bienvenue à SKIF-B</h2>
         <p>A SKIF-B nous enseignons et pratiquons le Karaté Dō Shōtōkan traditionnel tel qu'il est enseigné au SKIF Honbu Dōjō à Tōkyō - Japon.
             L'enseignement est basé sur une méthode permettant à chacun, quel que soit son genre, son âge et ses capacités, de progresser en Karaté-dō Shōtōkan.</p>
     

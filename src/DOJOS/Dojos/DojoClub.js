@@ -5,7 +5,8 @@ import DojoData from "../../DATAS/DojoData";
 import Carrousel from "../../CAROUSEL/Carrousel";
 import InstructorCard from "../DojoCard/InstructorCard";
 import ChiefInstructorCard from "../DojoCard/ChiefInstructorCard";
-
+//import Instructor2Card from "../DojoCard/Instructor2Card";
+//import Instructor3Card from "../DojoCard/Instructor3Dojo";
 import DojoSchedules from "./DojoSchedules";
 import DojoContact from "./DojoContact";
 import DojoAdress from "./DojoAdress";
@@ -13,8 +14,8 @@ import DojoAdress from "./DojoAdress";
 export default function DojoClub(props) {
     const { id } = useParams();
     const dojoClub = DojoData.findIndex((obj) => obj.id === id);
-  
-    
+    const instructorTwo = DojoData[dojoClub].instructeurs.instructeur2;
+    const instructorThree = DojoData[dojoClub].instructeurs.instructeur3;
 
     return (
         <main>
@@ -25,37 +26,74 @@ export default function DojoClub(props) {
                 <Carrousel />
             </div>
 
-
             <div className="galleryInstructorDojo">
-                <div >
-                   
-                        <ChiefInstructorCard
-                            className="galleryInstructorDojoCard"
-                            chiefInstructeurPic={DojoData[dojoClub].chiefInstructeurPic}
-                            chiefInstructeurRank={DojoData[dojoClub].chiefInstructeurRank}
-                            ChiefInstructeurPosition={DojoData[dojoClub].ChiefInstructeurPosition}
-                            chiefInstructeurName={DojoData[dojoClub].chiefInstructeurName}
-                            key={id + DojoData[dojoClub].chiefInstructeurName}
-                        />
-                  
-                </div>{" "}
-
                 <div>
-                 
+                    <ChiefInstructorCard
+                        className="galleryInstructorDojoCard"
+                        chiefInstructeurPic={DojoData[dojoClub].chiefInstructeurPic}
+                        chiefInstructeurRank={DojoData[dojoClub].chiefInstructeurRank}
+                        ChiefInstructeurPosition={DojoData[dojoClub].ChiefInstructeurPosition}
+                        chiefInstructeurName={DojoData[dojoClub].chiefInstructeurName}
+                        key={id + DojoData[dojoClub].chiefInstructeurName}
+                    />
+                </div>{" "}
+                <div>
+                    <InstructorCard
+                        className="galleryInstructorDojoCard"
+                        instructeurPic={DojoData[dojoClub].instructeurs.instructeur.instructeurPic}
+                        instructeurName={
+                            DojoData[dojoClub].instructeurs.instructeur.instructeurName
+                        }
+                        instructeurRank={
+                            DojoData[dojoClub].instructeurs.instructeur.instructeurRank
+                        }
+                        instructeurPosition={
+                            DojoData[dojoClub].instructeurs.instructeur.instructeurPosition
+                        }
+                        key={id + DojoData[dojoClub].instructeurs.instructeur.instructeurName}
+                    />
+                </div>
+                <div>
+                    {instructorTwo && (
                         <InstructorCard
                             className="galleryInstructorDojoCard"
-                            instructeurPic={DojoData[dojoClub].instructeurs.instructeur.instructeurPic}
-                            instructeurName={DojoData[dojoClub].instructeurs.instructeur.instructeurName}
-                            instructeurRank={DojoData[dojoClub].instructeurs.instructeur.instructeurRank}
-                            instructeurPosition={DojoData[dojoClub].instructeurs.instructeur.instructeurPosition}
-                            key={id + DojoData[dojoClub].instructeurs.instructeur.instructeurName}
+                            instructeurPic={
+                                DojoData[dojoClub].instructeurs.instructeur2.instructeurPic
+                            }
+                            instructeurName={
+                                DojoData[dojoClub].instructeurs.instructeur2.instructeurName
+                            }
+                            instructeurRank={
+                                DojoData[dojoClub].instructeurs.instructeur2.instructeurRank
+                            }
+                            instructeurPosition={
+                                DojoData[dojoClub].instructeurs.instructeur2.instructeurPosition
+                            }
+                            key={id + DojoData[dojoClub].instructeurs.instructeur2.instructeurName}
                         />
-                  
+                    )}
+                </div>
+                <div>
+                    {instructorThree && (
+                        <InstructorCard
+                            className="galleryInstructorDojoCard"
+                            instructeurPic={
+                                DojoData[dojoClub].instructeurs.instructeur3.instructeurPic
+                            }
+                            instructeurName={
+                                DojoData[dojoClub].instructeurs.instructeur3.instructeurName
+                            }
+                            instructeurRank={
+                                DojoData[dojoClub].instructeurs.instructeur3.instructeurRank
+                            }
+                            instructeurPosition={
+                                DojoData[dojoClub].instructeurs.instructeur3.instructeurPosition
+                            }
+                            key={id + DojoData[dojoClub].instructeurs.instructeur3.instructeurName}
+                        />
+                    )}
                 </div>
             </div>
-
-
-
 
             <div className="dojoShedules">
                 {" "}
@@ -114,16 +152,7 @@ export default function DojoClub(props) {
     );
 }
 
-
-
 /*
-   <InstructorCard
-                            className="galleryInstructorDojoCard"
-                            instructeurPic={DojoData[dojoClub].instructeur2.instructeurPic2}
-                            instructeurName={DojoData[dojoClub].instructeur2.instructeurName2}
-                            instructeurRank={DojoData[dojoClub].instructeur2.instructeurRank2}
-                            instructeurPosition={DojoData[dojoClub].instructeur2.instructeurPosition2}
-                            key={id + DojoData[dojoClub].instructeurPosition}
-                        />
+  
 
 */

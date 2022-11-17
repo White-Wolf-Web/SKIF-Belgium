@@ -64,9 +64,11 @@ footer ul li {
 footer a {
   color: var(--secondaryColor);
   text-decoration: none;
+  transition: 0.2 opacity;
 }
 footer a:hover {
-color: silver;
+opacity: 0.8 !important;
+color: var(--secondaryColor);
 
 }
 @media all and (min-width: 600px) {

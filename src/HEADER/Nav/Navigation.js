@@ -4,6 +4,7 @@ import "./Navigation.css"
 import NavTabTwo from './NavTabTwo'
 import NavTabThree from './NavTabThree'
 import NavTabFour from './NavTabFour';
+import NavTabFive from './NavTabFive';
 
 
 
@@ -20,8 +21,10 @@ export default function Navigation() {
             <NavTabThree eventKey="link-3" />
           </Nav.Item>
           <Nav.Item>
-            <NavTabFour eventKey="link3" />
-            
+            <NavTabFour eventKey="link4" />
+          </Nav.Item>
+          <Nav.Item>
+            <NavTabFive eventKey="link5" />
           </Nav.Item>
         </Nav>
       );

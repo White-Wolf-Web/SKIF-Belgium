@@ -1,12 +1,8 @@
 import React from "react";
 import "./InstructorCard.css";
 import Card from "react-bootstrap/Card";
-//import DojoData from "../../DATAS/DojoData";
 
-export default function InstructorCard(props) {
-   // const instructors = DojoData.instructeurs
-    //const instructor = DojoData.instructeurs.instructor
-
+export default function Instructor2Card(props) {
     return (
         <div className="galleryInstructorDojo">
             <div className="d-flex justify-content-around">
@@ -29,3 +25,4 @@ export default function InstructorCard(props) {
         </div>
     );
 }
+

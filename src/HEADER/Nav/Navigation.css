@@ -10,7 +10,10 @@
 
 .nav > .nav-item,
 .nav > .dropdown-menu.show {
-    width: 25%;
+    width: 23%;
+}
+.nav > .nav-item:last-child {
+    width: 8%;
 }
 
 .dropdown-menu {
@@ -23,6 +26,7 @@
     display: flex;
     justify-content: center;
 }
+
 .nav :first-child {
     border-top-left-radius: 10px !important;
 }
@@ -35,6 +39,10 @@
     justify-content: center !important;
     background-color: var(--primaryColor) !important;
 }
+.taille32 {
+    width: 32px;
+    height: 32px;
+}
 
 @media all and (max-width: 576px) {
     .nav {
@@ -42,7 +50,7 @@
         width: 100%;
         justify-content: center;
     }
-    .nav > .nav-item {
+    .nav > .nav-item, .nav > .nav-item:last-child  {
         width: 100%;
     }
     .dropdown-menu {
