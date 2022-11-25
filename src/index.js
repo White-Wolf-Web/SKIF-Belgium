@@ -6,14 +6,16 @@ import Home from "./HOME/Home/Home ";
 import reportWebVitals from "./THINGS/reportWebVitals";
 import Header from "./HEADER/Header/Header";
 import Footer from "./FOOTER/Footer";
-import Test from "./TEST/Test";
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import Calendar from "./CALENDAR/Calendar";
 import DojoList from "./DOJOS/Dojos/DojoList";
 import DojoClub from "./DOJOS/Dojos/DojoClub";
 import NotFound from "./404/NotFound";
 import InstructorCard from "./DOJOS/DojoCard/InstructorCard";
-
+import Test2 from "./TEST/Test2";
+import MyComponent from "./TEST/MyComponent"
+import Enzo from "./TEST/Enzo";
+import App2 from "./TEST/App2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,7 +23,10 @@ root.render(
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/test" element={<Test />} />
+            <Route path="/enzo" element={<Enzo />} />
+            <Route path="/c" element={<App2 />} />
+            <Route path="/x" element={<MyComponent />} />
+            <Route path="/testtwo" element={<Test2 />} />
             <Route path="/dojo/:id" element={<DojoClub />} />
             <Route path="/dojoslist" element={<DojoList />} />
             <Route path="/calendar" element={<Calendar />} />
