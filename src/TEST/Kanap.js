@@ -1,39 +1,64 @@
-import React, { useEffect, useState } from "react";
 
 export default function Kanap() {
-    const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(false);
-    const [items, setItems] = useState([]);
+    const reponse = fetch("https://jsonplaceholder.typicode.com/users", {
+        method: "GET",        
+        headers: {
+        "content-type": "application/json",
+          "accept": "application/json"
+        },
+    });
+    reponse
+    .then(async response => {
+        console.log(reponse);
+        try {
+        const users = await response.json();
+        console.log(users);
+        
+        }
+        catch (e) {
+            console.log(e)
+        }
+   
+    })
+   .catch (err => console.error(err));
 
-    useEffect(() => {
-        fetch("https://skifb-admin.be/api/CalendarAPI/GetCalendarTEST")
-            .then((res) => res.json())
-            .then(
-                (result) => {
-                    setIsLoaded(true);
-                    setItems(result.items);
-                },
+   return (
+<div>
+<ul>
+                    {reponse.map((item) => (
+                        <li key={reponse.id}>{reponse.name}</li>
+                    ))}
+                </ul>
+</div>
 
-                (error) => {
-                    setIsLoaded(true);
-                    setError(error);
-                }
-            );
-    }, []);
-
-    if (error) {
-        return <div>Erreur : {error.message}</div>;
-    } else if (!isLoaded) {
-        return <div>Chargement...</div>;
-    } else {
-        return (
-            <ul>
-                {items.map((item) => (
-                    <li key={item.name}>
-                        {item.name} {item.price}
-                    </li>
-                ))}
-            </ul>
-        );
+   )
     }
-}
+
+
+
+
+
+/*
+ const reponse = fetch("https://jsonplaceholder.typicode.com/users");
+    reponse
+    .then(async response => {
+        console.log(reponse);
+        try{
+            const reponseJson = await reponse.json();
+            console.log(reponseJson);
+        } catch (err) {
+            console.error(err);
+            }
+
+    })
+
+       return (
+           console.log("1er etape reuussi")
+           
+        )
+
+
+
+
+        https://skifb-admin.be/api/CalendarAPI/GetCalendarTEST
+*/

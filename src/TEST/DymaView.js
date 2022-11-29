@@ -1,5 +1,5 @@
 import React from "react";
-import { Dyma } from "./Dyma";
+import  Dyma from "./Dyma"
 
 export default function DymaView() {
     const { data, isLoading, error } = Dyma();
@@ -25,7 +25,7 @@ export default function DymaView() {
                 <ul>
         {data.map(item => (
           <li key={data.id}>
-            {data.title} {data.club}
+            {data.name} {data.club}
           </li>
         ))}
       </ul>

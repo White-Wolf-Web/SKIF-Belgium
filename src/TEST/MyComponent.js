@@ -1,22 +1,21 @@
-import React from 'react'
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from "react";
 
-export default function MyComponent() {
+
+export default  function MyComponent() {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
-    const [items, setItems] = useState([]);
-    
+    const [users, setUsers] = useState([]);
   
     // Remarque : le tableau vide de dépendances [] indique
     // que useEffect ne s’exécutera qu’une fois, un peu comme
     // componentDidMount()
     useEffect(() => {
-      fetch("https://skifb-admin.be/api/CalendarAPI/GetCalendarTEST")
+      fetch("https://jsonplaceholder.typicode.com/users")
         .then(res => res.json())
         .then(
           (result) => {
             setIsLoaded(true);
-            setItems(result.items);
+            setUsers(result.items);
           },
           // Remarque : il faut gérer les erreurs ici plutôt que dans
           // un bloc catch() afin que nous n’avalions pas les exceptions
@@ -34,13 +33,13 @@ export default function MyComponent() {
       return <div>Chargement...</div>;
     } else {
       return (
-        <ul>
-          {items.map(item => (
-            <li key={item.id}>
-              {item.club} {item.description}
-            </li>
-          ))}
-        </ul>
+        <div>
+        <h1>Listes</h1>
+
+        {users.map((r) => (
+            <li key={r.id}>{r.name}</li>
+        ))}
+    </div>
       );
     }
   }

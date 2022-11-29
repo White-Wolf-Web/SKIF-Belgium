@@ -13,9 +13,13 @@ import DojoClub from "./DOJOS/Dojos/DojoClub";
 import NotFound from "./404/NotFound";
 import InstructorCard from "./DOJOS/DojoCard/InstructorCard";
 import Test2 from "./TEST/Test2";
-import MyComponent from "./TEST/MyComponent"
-import Enzo from "./TEST/Enzo";
-import App2 from "./TEST/App2";
+//import App2 from "./TEST/App2";
+//import DymaView from "./TEST/DymaView";
+import Kanap from "./TEST/Kanap";
+import MyComponent from "./TEST/Mycomponent";
+import SuperTest from "./TEST/SuperTest";
+import Abc from "./TEST/Abc";
+import GetCalendarTEST from "./TEST/GetCalendarTEST";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,9 +27,12 @@ root.render(
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/enzo" element={<Enzo />} />
-            <Route path="/c" element={<App2 />} />
-            <Route path="/x" element={<MyComponent />} />
+            <Route path="/c" element={<MyComponent />} />
+            <Route path="/abc" element={<Abc />} />
+            <Route path="/get" element={<GetCalendarTEST />} />
+            <Route path="/s" element={<SuperTest />} />
+            <Route path="/k" element={<Kanap />} />
+         
             <Route path="/testtwo" element={<Test2 />} />
             <Route path="/dojo/:id" element={<DojoClub />} />
             <Route path="/dojoslist" element={<DojoList />} />
