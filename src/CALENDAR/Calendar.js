@@ -1,73 +1,96 @@
-import React from "react";
+
 import "./Calendar.css";
 import Accordion from "react-bootstrap/Accordion";
-import CalendarData from "../DATAS/CalendarData";
-import CalendarReact from "./CalendarReact";
-import CalendarPoster from "./CalendarPoster";
+import CalendarPdf from "./CalendarPdf";
+import React, { useState, useEffect } from "react";
+
+import { useTranslation } from "react-i18next";
+//import CalendarPoster from "./CalendarPoster";
+import kancho from "../ASSETS/IMAGES/Posters/Kancho2022.webp";
+import "../i18n";
 
 export default function Calendar(props) {
+    const { t } = useTranslation();
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+            try {
+                const response = await fetch("https://skifb-admin.be/api/CalendarAPI/GetCalendar");
+                const data = await response.json();
+                setItems(data);
+            } catch (e) {
+                console.log(e);
+            }
+        }
+        fetchData();
+    }, []);
 
     return (
         <main>
-            <h1>CALENDRIER FEDERAL</h1>
-
+            <h1>{t("federal_calendar.h1")}</h1>
             <div className="calendarReact">
-                <CalendarReact />
-
                 <div className="calendarAccordion">
-                    {CalendarData.map((CalendarData) => (
-                        <Accordion defaultActiveKey="false" key={CalendarData.id} flush>
+                    {items.map((item) => (
+                        <Accordion defaultActiveKey="false" key={item.id} flush>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>
                                     <div>
                                         {" "}
-                                        {CalendarData.startDay +
+                                        {item.startDay +
                                             "/" +
-                                            CalendarData.startMonth +
+                                            item.startMonth +
                                             "/" +
-                                            CalendarData.startYear}{" "}
-                                        &emsp; {CalendarData.title}
+                                            item.startYear}{" "}
+                                        &emsp; {item.title}
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body className="calendarBody">
                                     <div className="">
                                         <div>
-                                            {"Horaire de"} {CalendarData.startHours} {"à"}{" "}
-                                            {CalendarData.endHours + "."}
+                                            {t("federal_calendar.timetable")} {item.startHours}{" "}
+                                            {t("federal_calendar.to")} {item.endHours + "."}
                                         </div>
                                         <div>
-                                            {"Lieu : "} {CalendarData.club + "."}
+                                            {t("federal_calendar.location")} {item.club}
                                         </div>
                                         <div>
-                                            {"Adresse :"} {CalendarData.addressStreet}{" "}
-                                            {CalendarData.addressNumber} {CalendarData.addressCity}{" "}
-                                            {CalendarData.addressPostalCode}{" "}
+                                            {t("federal_calendar.adress")} {item.addressStreet}{" "}
+                                            {item.addressNumber + ","} {item.addressCity}{" "}
+                                            {item.addressPostalCode}{" "}
                                         </div>
                                         <div>
-                                            {CalendarData.province} &emsp;{" "}
-                                            {CalendarData.addressCountry}
+                                            {"Province:"} {item.addressProvince} &emsp; {item.addressCountry}
                                         </div>
                                         <br></br>
                                         <div>
                                             {" "}
-                                            {"Contact : "}
-                                            {CalendarData.contact}
+                                            {t("federal_calendar.contact")}
+                                            {item.contact}
                                         </div>
                                         <div>
                                             {" "}
-                                            {"Mail : "}
-                                            {CalendarData.contactMail}
+                                            {t("federal_calendar.mail")}
+                                            {item.email}
                                         </div>
+                                        <div>
                                         <br></br>
-                                        <div>{CalendarData.description}</div>
+                                        <div>{item.price}</div>
                                     </div>
-                                    <CalendarPoster poster={CalendarData.poster} />
+                                        <br></br>
+                                        <div>{item.description}</div>
+                                    </div>
+                                    <button onClick={CalendarPdf + item.linkPdf}><img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster"  /></button>
+                                   
+  )
+                                    
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
                     ))}
-                </div>
+                </div>{" "}
             </div>
         </main>
     );
 }
+

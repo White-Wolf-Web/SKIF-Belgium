@@ -1,27 +1,31 @@
 .galleryInstructorDojo {
     display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-margin-top: 15px;
-margin-bottom: 15px;
-max-width: 90%;
-margin-left: auto;
-margin-right: auto;
-flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
 .galleryInstructorDojoCard {
     margin-left: 0;
     margin-right: 0;
-    }
-
-
+}
+.displayNone {
+    display: none;
+}
+.dojoInstructors {
+    display: flex;
+    flex-wrap: wrap;
+}
 .dojoShedules {
     background-color: transparent;
-   width: 90%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-
 }
 
 .dojoShedules li:first-child {
@@ -35,14 +39,14 @@ flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-
 }
-.dojoContact li:first-child {
+.dojoContact p {
     font-family: Baskerville;
-    font-weight: 600 !important;
-    font-size: 19px;
+    font-weight: 600;
+   
 }
-.dojoContactH3, .dojoShedulesH3 {
+.dojoContactH3,
+.dojoShedulesH3 {
     display: flex;
     justify-content: flex-start;
     font-size: 19px;
@@ -50,29 +54,62 @@ flex-wrap: wrap;
     font-family: Baskerville;
     font-weight: 600 !important;
 }
+.cardContact {
+display: flex;
+}
+.cardBodyAddress {
+    display: flex;
+}
 .googleMap {
     display: flex;
     justify-content: center;
-    max-width: 90%;
+    width: 1000px;
+    max-width: calc(90% - 150px);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
-.dojoAdress {
-display: flex;
-justify-content: center;
-
+.dojoAdressCard {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.dojoAddress {
+    font-weight: 700;
 }
 
-@media all and (max-width: 768px) {  
+@media all and (max-width: 768px) {
     .galleryInstructorDojo {
         flex-wrap: wrap;
         width: 80%;
     }
     .galleryInstructorDojoCard {
-        margin-left: 8px!important;
-        margin-right: 8px!important;
-        }
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+    }
+    .cardBodyAddress {
+        display: block;
+        justify-content: center;
+    }
+    .googleMap {
+        width: 720px;
+        max-width: 100%;
+        height: 150px;
+        margin-top: 10px;
 }
+.dojoAdressCard {
+    text-align: center;
+    
+}
+}
+@media all and (max-width: 576px) {
 
+.dojoContact p {
+    font-family: Baskerville;
+    font-weight: 600;
+    font-size: 14px;
+   
+}}

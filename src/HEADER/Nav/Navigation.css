@@ -1,6 +1,6 @@
 .nav {
     margin-top: 20px !important;
-    max-width: 90%;
+    max-width: 90% !important;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -10,12 +10,11 @@
 
 .nav > .nav-item,
 .nav > .dropdown-menu.show {
-    width: 23%;
+    width: 22%;
 }
 .nav > .nav-item:last-child {
-    width: 8%;
+    width: 12%; 
 }
-
 .dropdown-menu {
     display: flex;
 
@@ -42,6 +41,9 @@
 .taille32 {
     width: 32px;
     height: 32px;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 3rem !important;
 }
 
 @media all and (max-width: 576px) {

@@ -26,7 +26,7 @@ export default function CalendarReact(props) {
                 returnValue="range"
                 onClickDay={(value) => console.log("New date is: ", value)}
                 minDate ={ new Date ( 2022 , 10 , 1 )}
-                competitionDate={ new Date ( 2022 , 10 , 19 )}
+                competitionDate={ new Date ( 2023 , 0 , 19 ) }
             />
         </div>
     );

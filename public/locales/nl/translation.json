@@ -1,0 +1,110 @@
+{
+    "nav": {
+        "home": "Welcom",
+        "history": "Geschiedenis",
+        "concept": "Begrippen van Karate",
+        "calendar": "Kalender",
+        "board": "Raad van Beheer",
+        "rules": "Wedstrijdreglementen",
+        "referee": "Scheidsrechters",
+        "administration": "Administratie",
+        "document": "Documenten"
+    },
+    "footer": {
+        "becoming_a_member": " Lid worden bij SKIF-B",
+        "space_member": " Ledenadminidtratie",
+        "photo": " Fotos",
+        "conditions": " Voorwaarden en bepalingen"
+    },
+    "home": {
+        "title": "Shotokan Karate-do International Federation - België",
+        "section1 h2": "Welkom bij SKIF-B",
+        "section1 text": "In SKIF-B beoefenen we het traditionele Shōtōkan Karate Dō zoals onderwezen in de SKIF Honbu Dōjō in Tōkyō - Japan. De instructie is gebaseerd op een uitgebreide syllabus waardoor iedereen, ongeacht geslacht, leeftijd en vaardigheid, vooruitgang kan boeken in Shōtōkan Karate-dō.",
+        "section2 h2": "Onze banden met Japan",
+        "section2 text": "Sterke banden met het hoofdkwartier in Japan bieden onze leden de mogelijkheid om regelmatig les van hoge kwaliteit te krijgen, rechtstreeks van de beste Japanse experts. Al onze dan graden zijn geregistreerd in Japan.",
+        "section3 h2": "De Karate Familie",
+        "section3 text": "Als SKIF lid maakt u deel uit van een wereldwijde 'Karate Familie van SKIF Karateka'. Vandaar de 'F' in 'SKIF' die niet alleen 'Federatie' betekent maar ook 'Vriend' of 'Familie'",
+        "section4 h2": "Karate wedstrijden",
+        "section4 text": "Wij bieden de mogelijkheid aan jonge karateka om te wedijveren in een veilige en respectvolle omgeving, in België en ook in het buitenland. Wij moedigen u aan om deze site te verkennen om meer over ons en SKIF te weten te komen."
+    },
+    "federal_calendar": {
+        "h1": "FEDERALE KALENDER",
+        "club": "Club",
+        "timetable": "Schema van ",
+        "to": "tot ",
+        "location": "Locatie : ",
+        "adress": "Adres : ",
+        "contact": "Contact : ",
+        "mail": "Mail : "
+    },
+    "country": "België",
+    "weekDays": {
+        "monday": "Maandag: ",
+        "tuesday": "Dinsdag: ",
+        "wednesday": "Woensdag: ",
+        "thursday": "Donderdag: ",
+        "friday": "Vrijdag: ",
+        "saturday": "Zaterdag: ",
+        "sunday": "Zondag: "
+    },
+    "words": {
+        "from": "van",
+        "chiefInstructor": "Hoofdinstructeur",
+        "instructor": "Instructeur",
+        "schedule": "Schema",
+        "rank": "Rang: ",
+        "contact": "Contact",
+        "adress": "Adres"
+    },
+    "termsconditions": {
+        "terms_h1": "Voorwaarden en bepalingen",
+        "terms_h2_1": "Algemene bepalingen",
+        "terms_p_1_1": "De 'Shōtōkan Karate International - Belgium' is een vereniging zonder winstoogmerk met als doel Shōtōkan karate te beoefenen volgens de traditionele richtlijnen van de meesters van de internationale federatie: Shōtōkan Karate-Dō Internationale Federatie (S.K.I.F)",
+        "terms_p_1_2": "BTW Ondernemingsnummer: n.v.t.",
+        "terms_p_1_3": "E-mailadres: daniel.kina@skifb.be",
+        "terms_p_1_4": "Telefoonnummer:",
+        "terms_p_1_5": "Website: www.skifb.be",
+        "terms_h2_2": "Dōjō (Club) lidmaatschap",
+        "terms_p_2_1": "Een dōjō (club) is een autonome, lokale sportvereniging, met als doel het organiseren van karate activiteiten en het promoten van de karatesport. SKIF-B groepeert karateka's in België. De individuele karateka's moeten zich groeperen in een dōjō (club). Alle normale betrekkingen tussen SKIF-B en de individuele karateka's die zij verenigt, verlopen via de dōjō(s) (clubs).",
+        "terms_p_2_2": "Een dōjō (club) die als lid tot SKIF-B wil toetreden, moet de procedure volgen die beschreven is in de het Reglement van Inwendige Orde, dat op de website van SKIF-B staat.",
+        "terms_h2_3": "Individueel lidmaatschap",
+        "terms_p_3_1": "Iedere karateka moet in het bezit zijn van een reglementaire SKIF-B licentie. Dit betekent dat de karateka moet zijn aangesloten bij een door SKIF-B erkende dōjō (club).",
+        "terms_p_3_2": "Een karateka is alleen lid van de dōjō (club) die op de licentie vermeld staat.",
+        "terms_p_3_3": "Een individueel lidmaatschap zonder dōjō (club) is niet mogelijk.",
+        "terms_p_3_4": "De licentie geeft de karateka het recht deel te nemen aan de activiteiten die door SKIF-B of haar leden worden georganiseerd.",
+        "terms_p_3_5": "Elke SKIF-B beheerder of zijn vertegenwoordiger kan vragen om de licentie te tonen.",
+        "terms_p_3_6": "Een karateka wiens licentie niet geldig is zal worden geweigerd om deel te nemen aan activiteiten van de federatie.",
+        "terms_p_3_7": "Karateka's, die hun licentie betalen en/of verlengen, kunnen het betaalde bedrag niet terugvorderen om welke reden dan ook.",
+        "terms_h2_4": "Einde lidmaatschap",
+        "terms_p_4_1": "Wanneer een lid het lidmaatschap van SKIF-B wenst stop te zetten moet hij/zij de lidmaatschapsbijdrage, bij ontvangst van de e-mail betreffende de hernieuwingsbijdrage, niet meer betalen. De niet-betaling van het lidgeld zet het lid in de ledendatabase automatisch op niet-actief. Na een periode van vijf jaar als niet-actief lid worden alle gegevens van het lid automatisch uit de SKIF-B ledendatabase verwijderd (zie ook de Privacy Policy)."
+    },
+
+    "history": {
+        "hist_h1": "GESCHIEDENIS",
+        "hist_p1": "Hoewel algemeen wordt erkend dat karate-dō zich heeft ontwikkeld uit vechtsystemen die hun oorsprong vinden in China, bestaan er weinig documenten die kunnen verifiëren hoe dit precies in zijn werk is gegaan. In 1392 migreerden meer dan 500 Chinezen vanuit Zuid-China naar Okinawa, en vestigden een gemeenschap in het gebied dat bekend staat als Kume. Zij introduceerden de Chinese cultuur bij de Ryūkyū bevolking, en men vermoedt dat een aantal Chinese beoefenaars van het gevecht van hand tot hand ook deel uitmaakten van deze gemeenschap.",
+        "hist_p2": "Veel later, rond 1756, introduceerde de militaire gezant van de Qing dynastie, Kushanku, een expert in de krijgskunst van Ch'uan Fa, deze op Okinawa.",
+        "hist_p3": "Toen Shimazu Iehisa van de Satsuma-clan de eilanden in 1609 binnenviel, werden alle wapens van de plaatselijke bevolking in beslag genomen. Ryūkyū (Okinawa) mocht nog wel zijn tributaire relatie met China handhaven, maar het verbod op wapens werd de volgende 250 jaar strikt gehandhaafd. De training van hand-tot-hand gevechten werd in het geheim uitgevoerd terwijl de autoriteiten van Satsuma hun beleid van ontwapening en het onder controle houden van de Ryūkyūanen intensiveerden.",
+        "hist_p4": "Er zijn vele theorieën over de oorsprong van de term 'karate'. Het is onduidelijk wie de eerste was die het woord gebruikte en wanneer. Het oude Ryūkyū vechtsysteem werd echter oorspronkelijk 'te' genoemd, en de standaard aanname is dat 'kara-te' verwijst naar de krijgstechnieken die men uit China leerde. (kara = China)",
+        "hist_p5": "Hoe het ook zij, het is duidelijk dat karate zich in Okinawa onder aanzienlijke Chinese invloed heeft ontwikkeld. Na verloop van tijd werden de eens zo geheime technieken wijdverbreid over heel Okinawa. In 1905 introduceerde Itosu Anko karate in het schoolcurriculum van Okinawa.",
+        "hist_p6": "Karate was voor het eerst te zien op het Japanse vasteland in 1916-1917 toen de Okinawaanse onderwijzer Gichin Funakoshi een openbare demonstratie gaf in de Butōkuden in Kyōtō. In 1922 organiseerde het Ministerie van Onderwijs de eerste Lichamelijke Opvoeding Expgichin-funakoshi1-concentratie in Tōkyō, waarvoor Funakoshi was uitgenodigd om het Kushanku-no-kata te demonstreren. Kanō Jigorō, de stichter van Judō, verzocht Funakoshi zelfs om kata en kumite te tonen aan de leden van het Kodōkan Judo Instituut. Funakoshi bleef vanaf dat moment in Tōkyō om karate te onderwijzen.",
+        "hist_p7": "Naast Funakoshi kwamen ook andere karatemeesters naar het vasteland van Japan. Deze meesters creëerden meer dan 100 verschillende karatescholen, zowel in Okinawa als op het Japanse vasteland.",
+        "hist_p8": "Shōtōkan, Shitō-ryu, Goju-ryu en Wadō-ryu zijn de meest succesvolle in termen van het aantal leerlingen en worden de 'grote vier' scholen van Karate dō genoemd.",
+        "hist_p9": "De universitaire clubs waren de voorhoede van de popularisering van karate op het Japanse vasteland. Het opvoedkundig potentieel van karate werd al snel erkend, en de benaming werd veranderd in 'karate-dō' om de morele opvoeding en het potentieel als middel tot zelfverbetering te benadrukken. (kara = leeg)",
+        "hist_p10": "Vanaf het begin van de jaren 1950 begonnen verschillende karate groepen te experimenteren met freestyle wedstrijden in een wedstrijd format. In 1957 organiseerde de Japan Karate Association het eerste officiële 'Kampioenschap van Japan'. Mr. Kanazawa Hirokazu behaalde de eerste plaats in kumite.",
+        "hist_p11": "Vanaf het begin van de jaren 1960, zonden de meeste karate organisaties instructeurs uit over de hele wereld. Mr. Kanazawa Hirokazu werd eerst naar Hawai gestuurd en later naar Europa om 'Shōtokan karate' te onderwijzen."
+    },
+    "dojos": [
+        {
+            "id": "1001",
+            "schedules": {
+                "monday": "Maandag: Volwassenen (+13 jaar) GÉÉN Zwarte gordels",
+                "tuesday": "Dinsdag: ALLÉÉN Zwarte gordels",
+                "wednesday": "Woensdag: Beginners (+6 jaar)",
+                "thursday": "Donderdag: Volwassenen (+13 jaar)",
+                "friday": "Vrijdag: Kumite training (minimum 12 jaar & Blauwe gordel)",
+                "saturday": "",
+                "sunday": "Zondag:\\n\\nvan 10:00 tot 11:00 Kinderen & Volwassenen Beginners - Algemene les \n van 11:00 tot 12:00 Kinderen & Volwassenen Oranje gordel en hoger Algemene les \n van 12:00 tot 13:30 Kinderen & Volwassenen Bruine & Zwarte gordels Algemene les"
+            }
+        }
+    ]
+}

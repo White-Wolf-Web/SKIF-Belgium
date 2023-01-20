@@ -1,0 +1,19 @@
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+    const [imageUrl, setImageUrl] = useState(null);
+
+  useEffect(() => {
+    fetch('https://skifb-admin.be/api/CalendarAPI/GetCalendar')
+      .then(response => response.blob())
+      .then(blob => URL.createObjectURL(blob))
+      .then(url => setImageUrl(url))
+      .catch(error => console.error(error));
+  }, []);
+
+  return (
+    <div>
+      {imageUrl ? <img src={imageUrl} alt="My image" /> : 'Loading...'}
+    </div>
+  );
+}

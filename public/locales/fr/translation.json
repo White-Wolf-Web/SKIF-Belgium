@@ -1,0 +1,126 @@
+{
+    "nav": {
+        "home": "Acceuil",
+        "history": "Histoire",
+        "concept": "Concept du karaté",
+        "calendar": "Calendrier",
+        "board": "Conseil d'administration",
+        "rules": "Réglement arbitrage",
+        "referee": "Arbitres",
+        "administration": "Administration",
+        "document": "Documents"
+    },
+    "footer": {
+        "becoming_a_member": " Devenir Membre SKIF",
+        "space_member": " Espace Membre",
+        "photo": " Photos",
+        "conditions": " Conditions Générales"
+    },
+    "home": {
+        "title": "Shotokan Karate-do International Federation - Belgique",
+        "section1_h2": "Bienvenue à SKIF-B",
+        "section1_text": "A SKIF-B nous enseignons et pratiquons le Karaté Dō Shōtōkan traditionnel tel qu'il est enseigné au SKIF Honbu Dōjō à Tōkyō - Japon. L'enseignement est basé sur une méthode permettant à chacun, quel que soit son genre, son âge et ses capacités, de progresser en Karaté-dō Shōtōkan.",
+        "section2_h2": "Nos liens avec le Japon",
+        "section2_text": "Des liens étroits avec les instructeurs japonais permettent à nos membres de recevoir régulièrement des cours de haut niveau directement des meilleurs experts japonais. Tous nos grades dan sont enregistrés au Japon.",
+        "section3_h2": "La famille Karaté",
+        "section3_text": "En tant que membre de la SKIF, vous faites partie d une 'famille de karaté' mondiale, SKIF Karateka où le 'F' de 'SKIF' ne signifie pas seulement 'Fédération' mais aussi 'Ami' ou 'Famille'.",
+        "section4_h2": "Les compétitions de karaté",
+        "section4_text": "Nous offrons la possibilité aux jeunes karatékas de participer à des compétitions dans un environnement sûr et respectueux en Belgique mais aussi à l'étranger. Nous vous encourageons à visiter ce site pour en savoir plus sur nous et sur la SKIF."
+    },
+    "federal_calendar": {
+        "h1": "CALENDRIER FÉDÉRAL",
+        "club": "Club",
+        "timetable": "Horaire de ",
+        "to": "à ",
+        "location": "Lieu : ",
+        "adress": "Adresse : ",
+        "contact": "Contact : ",
+        "mail": "Email : "
+    },
+    "country": "Belgique",
+    "weekDays": {
+        "monday":"Lundi: ",
+        "tuesday":"Mardi: ",
+        "wednesday":"Mercredi: ",
+        "thursday":"Jeudi: ",
+        "friday":"Vendredi: ",
+        "saturday":"Samedi: ",
+        "sunday":"Sunday: "
+    },
+    "words": {
+        "from":"de ",
+        "chiefInstructor":"Chef Instructeur",
+        "instructor":"Instructeur",
+        "schedule":"Horaire",
+        "rank":"Grade: ",
+        "contact":"Contact",
+        "adress":"Adresse"
+    },
+    "termsconditions":{
+        "terms_h1":"Conditions générales",
+        "terms_h2_1":"Dispositions générales",
+        "terms_p_1_1":"Le 'Shōtōkan Karate International - Belgium' est une association sans but lucratif dont le but est de pratiquer le karaté Shōtōkan selon les directives traditionnelles des maîtres de la fédération internationale : Fédération Internationale de Karaté-Dō Shōtōkan (S.K.I.F)",
+        "terms_p_1_2":"Numéro de TVA de l'entreprise : N/A",
+        "terms_p_1_3":"Adresse électronique : daniel.kina@skifb.be",
+        "terms_p_1_4":"Numéro de téléphone :",
+        "terms_p_1_5":"Site Internet : www.skifb.be",
+        "terms_h2_2":"Adhésion au dōjō (club)",
+        "terms_p_2_1":"Un dōjō (club) est une association sportive locale autonome, dont l'objectif est d'organiser des activités de karaté et de promouvoir le karaté sportif. SKIF-B regroupe les karatékas en Belgique. Les karatékas individuels doivent se regrouper dans un dōjō (club). Toutes les relations normales entre SKIF-B et les karatékas individuels qu'elle regroupe se font par l'intermédiaire des dōjōs (clubs).",
+        "terms_p_2_2":"Un dōjō (club) qui souhaite adhérer à SKIFB en tant que membre doit suivre la procédure décrite dans le règlement intérieur qui peut être trouvé sur le site web de SKIF-B.",
+        "terms_h2_3":"Adhésion individuelle",
+        "terms_p_3_1":"Chaque karatéka doit posséder une licence réglementaire de SKIFB. Cela signifie que le karatéka doit être affilié à un dōjō (club) reconnu par la SKIF-B.",
+        "terms_p_3_2":"Un karatéka est seulement membre du dōjō (club) qui est mentionné sur la licence.",
+        "terms_p_3_3":"Une affiliation individuelle sans dōjō (club) n'est pas possible.",
+        "terms_p_3_4":"La licence permet au karatéka de participer aux activités organisées par SKIF-B ou ses membres.",
+        "terms_p_3_5":"Tout directeur de SKIF-B ou son représentant peut demander la présentation d'une licence.",
+        "terms_p_3_6":"Les karatékas dont la licence n'est pas valide se verront refuser la participation aux activités de la fédération.",
+        "terms_p_3_7":"Les karatékas, qui paient et/ou renouvellent leur licence, ne peuvent pas réclamer le montant payé pour quelque raison que ce soit.",
+        "terms_h2_4":"Fin de l'adhésion",
+        "terms_p_4_1":"Lorsqu'un membre souhaite mettre fin à son adhésion à SKIF-B, il doit cesser de payer la cotisation à la réception du courriel de renouvellement de la cotisation. Le non-paiement de la cotisation place automatiquement le membre en statut non actif dans la base de données des membres. Après une période de cinq ans en tant que membre non actif, toutes les données du membre seront automatiquement supprimées de la base de données des membres de SKIF-B (voir également la politique de confidentialité)."
+
+    },
+    "history": {
+        "hist_h1":"HISTOIRE",
+        "hist_p1":"Bien qu'il soit largement reconnu que le karaté dō s'est développé à partir de systèmes de combat originaires de Chine, il existe peu de documents permettant de vérifier le processus exact dans lequel cela s'est produit. En 1392, plus de 500 Chinois ont migré du sud de la Chine vers Okinawa, et ont établi une communauté dans la région connue sous le nom de Kume. Ils ont introduit la culture chinoise dans le peuple Ryūkyū, et on pense qu'un certain nombre de pratiquants chinois du combat à mains nues faisaient également partie de cette communauté.",
+        "hist_p2":"Bien plus tard, vers 1756, l'envoyé militaire de la dynastie Qing, Kushanku, un expert de l'art martial du Ch'uan Fa, l'a introduit à Okinawa.",
+        "hist_p3":"Lorsque Shimazu Iehisa, du clan Satsuma, a envahi les îles en 1609, toutes les armes ont été confisquées aux habitants. Ryūkyū (Okinawa) était toujours autorisée à maintenir sa relation tributaire avec la Chine, mais l'interdiction des armes a été strictement appliquée pendant les 250 années suivantes. L'entraînement au combat à mains nues s'est déroulé en secret tandis que les autorités de Satsuma intensifiaient leur politique de désarmement et de contrôle des Ryūkyūans.",
+        "hist_p4":"Il existe de nombreuses théories sur l'origine du terme 'karaté'. Il n'est pas clair qui a été le premier à utiliser le mot et quand. Cependant, l'ancien système de combat Ryūkyū était à l'origine appelé 'te', et l'hypothèse standard est que 'kara-te' fait référence aux techniques martiales apprises de la Chine. (kara = Chine)",
+        "hist_p5":"Quoi qu'il en soit, il est clair que le karaté a évolué à Okinawa sous une influence chinoise considérable. Au fil du temps, les techniques autrefois secrètes se sont répandues dans tout Okinawa. En 1905, Itosu Anko a introduit le karaté dans le programme scolaire d'Okinawa.",
+        "hist_p6":"Le karaté a été vu pour la première fois sur le continent japonais en 1916-1917, lorsque l'instituteur d'Okinawa Gichin Funakoshi a fait une démonstration publique au Butōkuden de Kyōtō. En 1922, le ministère de l'Éducation a organisé la première exposition d'éducation physique. osition à Tōkyō, à laquelle Funakoshi fut invité à faire la démonstration du Kushanku-no-kata. Kanō Jigorō, le fondateur du Judō, a même demandé à Funakoshi de montrer des kata et des kumite aux membres de l'Institut de Judo Kodōkan. Funakoshi est resté à Tōkyō pour enseigner le karaté à partir de ce moment-là.",
+        "hist_p7":"Outre Funakoshi, d'autres karatékas sont venus au Japon continental. Ces maîtres ont créé plus de 100 écoles de karaté différentes, tant à Okinawa que sur le continent.",
+        "hist_p8":"Parmi elles, le Shōtōkan, le Shitō-ryu, le Goju-ryu et le Wadō-ryu sont les plus prospères en termes de nombre d'élèves et sont appelées les 'quatre grandes' écoles de Karaté-dō.",
+        "hist_p9":"Les clubs universitaires ont été à l'avant-garde de la popularisation du karaté au Japon continental. Le potentiel éducatif du karaté a été rapidement reconnu, et sa désignation a été changée en 'karate-dō' pour souligner son éducation morale, et son potentiel en tant que moyen de perfectionnement de soi. (kara = vide)",
+        "hist_p10":"Dès le début des années 1950, plusieurs groupes de karaté ont commencé à expérimenter les matchs de style libre dans un format de compétition. En 1957, l'Association japonaise de karaté a organisé le premier 'Championnat du Japon' officiel. M. Kanazawa Hirokazu a remporté la première place en kumite.",
+        "hist_p11":"Dès le début des années 1960, la plupart des organisations de karaté ont dépêché des instructeurs dans le monde entier. M. Kanazawa Hirokazu a d'abord été envoyé à Hawaï, puis en Europe, pour enseigner le 'Shōtōkan karaté'."
+    },
+    "dojos": [
+        {
+            "id":"1001",
+            "hombuDojo": {
+                "schedules": {
+                    "monday": [
+                        "Lundi: ",
+                        "19h30 à 21h00 Adultes (+13 ans) UNIQUEMENT ceintures noires"
+                    ],
+                    "tuesday": ["Mardi: ", "19h30 à 21h00 UNIQUEMENT ceintures noires"],
+                    "wednesday": [
+                        "Mercredi: ",
+                        "14h00 à 15h00 Débutants (+6 ans) de 15h00 à 16h00 Enfants ceinture orange et plus"
+                    ],
+                    "thursday": ["Jeudi: ", "19h30 à 21h00 Adultes (+13 ans)"],
+                    "friday": [
+                        "Vendredi: ",
+                        "19h30 à 21h00 Entraînement Kumite (minimum 12 ans et ceinture bleue)"
+                    ],
+                    "saturday": [],
+                    "sunday": [
+                        "Dimanche: ",
+                        "10:00 à 11:00 Enfants & Adultes Débutants Classe générale",
+                        "11:00 à 12:00 Enfants & Adultes Ceinture orange et plus Classe générale",
+                        "12:00 à 13:30 Enfants & Adultes Ceintures brunes et noires Classe générale"
+                    ]
+                }
+            }
+        }
+    ]
+}

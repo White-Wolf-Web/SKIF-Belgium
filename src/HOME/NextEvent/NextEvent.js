@@ -4,8 +4,8 @@ import "./NextEvent.css";
 
 export default function NextEvent() {
     return (
-        <div className="nextEvent">
-            <img src={Kancho2022} alt="Prochain évenement" width={362} height={512} />
+        <div>
+            <img src={Kancho2022} alt="Prochain évenement" width={362} height={512} className="nextEvent" />
             
         </div>
     );
