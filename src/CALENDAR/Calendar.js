@@ -1,17 +1,21 @@
 
 import "./Calendar.css";
 import Accordion from "react-bootstrap/Accordion";
-import CalendarPdf from "./CalendarPdf";
+//import CalendarPdf from "./CalendarPdf";
 import React, { useState, useEffect } from "react";
 
 import { useTranslation } from "react-i18next";
-//import CalendarPoster from "./CalendarPoster";
+import CalendarPoster from "./CalendarPoster";
 import kancho from "../ASSETS/IMAGES/Posters/Kancho2022.webp";
 import "../i18n";
 
 export default function Calendar(props) {
     const { t } = useTranslation();
     const [items, setItems] = useState([]);
+    const handleClick = () => {
+        return (CalendarPoster)
+    }
+    console.log(CalendarPoster);
 
     useEffect(() => {
         async function fetchData() {
@@ -80,9 +84,11 @@ export default function Calendar(props) {
                                         <br></br>
                                         <div>{item.description}</div>
                                     </div>
-                                    <button onClick={CalendarPdf + item.linkPdf}><img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster"  /></button>
-                                   
-  )
+                                    <button name="xxx" onClick={handleClick}>XXX</button>
+                                    <CalendarPoster />
+                                    <img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster" onClick={() => <CalendarPoster />} />
+                                  
+  
                                     
                                 </Accordion.Body>
                             </Accordion.Item>

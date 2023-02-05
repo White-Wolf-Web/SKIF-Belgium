@@ -8,7 +8,7 @@ import Calendar from "../CALENDAR/Calendar";
 import DojoList from "../DOJOS/Dojos/DojoList";
 import DojoClub from "../DOJOS/Dojos/DojoClub";
 import NotFound from "../404/NotFound";
-//import BEN from "../CALENDAR/BEN";
+import CalendarPoster from "../CALENDAR/CalendarPoster";
 import "../i18n";
 import { I18nextProvider } from "react-i18next";
 import i18n from "../i18n";
@@ -29,6 +29,8 @@ function App() {
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/terms" element={<TermsConditions />} />
                 <Route path="/history" element={<History />} />
+                <Route path="/x" element={<CalendarPoster />} />
+                
                
 
 

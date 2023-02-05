@@ -1,41 +1,31 @@
 import React, { useState, useEffect } from "react";
-//import Image from 'react-bootstrap/Image'
-import "./Calendar.css";
-
-
-
-//downloadFile('https://example.com/files/filename.pdf');
+import kancho from "../ASSETS/IMAGES/Posters/Kancho2022.webp";
+//import xxx from "https://skifb-admin.be/api/CalendarAPI/GetFile?filename=f9e28063-a355-4de4-94bf-739ca5baf63e.pdf"
 
 export default function CalendarPoster(props) {
-   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
+	const [items, setItems] = useState([]);
+  const handleClick = kancho;
 
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch('https://skifb-admin.be/api/CalendarAPI/GetCalendar');
-      const blob = await response.blob();
-      setData(blob);
-      setLoading(false);
-    }
-    fetchData();
-  }, []);
+	useEffect(() => {
+		async function fetchData() {
+			try {
+				const response = await fetch("https://skifb-admin.be/api/CalendarAPI/GetFile?filename=f9e28063-a355-4de4-94bf-739ca5baf63e.pdf");
+				const data = await response.json();
+				setItems(data);
+			} catch (e) {
+				console.log(e);
+			}
+		}
+		fetchData();
+	}, []);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-console.log(props.linkPdf);
-  return (
-    <div>
-     
-        <div>{data.linkPdf}</div>
-     
-    </div>
-  );
+
+
+	return (
+		<div>
+		<button onClick={() => {}}>X</button>
+		</div>
+   
+	);
 }
-
-
-
-
-
-
 
