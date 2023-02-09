@@ -84,9 +84,9 @@ export default function Calendar(props) {
                                         <br></br>
                                         <div>{item.description}</div>
                                     </div>
-                                    <button name="xxx" onClick={handleClick}>XXX</button>
+                                   
                                     <CalendarPoster />
-                                    <img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster" onClick={() => <CalendarPoster />} />
+                                    <img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster" />
                                   
   
                                     

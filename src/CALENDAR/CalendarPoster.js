@@ -23,7 +23,7 @@ export default function CalendarPoster(props) {
 
 	return (
 		<div>
-		<button onClick={() => {}}>X</button>
+		
 		</div>
    
 	);
