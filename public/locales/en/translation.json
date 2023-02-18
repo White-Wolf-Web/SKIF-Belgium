@@ -56,6 +56,16 @@
         "contact": "Contact",
         "adress": "Adress"
     },
+    "referees": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dojo": "Dojo",
+        "nationalLevel": "NL *",
+        "internationalLicenceKata": "IL** Kata",
+        "internationalLicenseKumite": "IL** Kumite",
+        "1asterix": "National Level",
+        "2asterix": "International Licence"
+    },
     "termsconditions": {
         "terms_h1": "Terms and Conditions",
         "terms_h2_1": "General provisions",

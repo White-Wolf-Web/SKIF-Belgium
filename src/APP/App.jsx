@@ -5,6 +5,7 @@ import Header from "../HEADER/Header/Header";
 import Footer from "../FOOTER/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Calendar from "../CALENDAR/Calendar";
+import Referees from "../REFEREES/Referees";
 import DojoList from "../DOJOS/Dojos/DojoList";
 import DojoClub from "../DOJOS/Dojos/DojoClub";
 import NotFound from "../404/NotFound";
@@ -15,7 +16,7 @@ import i18n from "../i18n";
 import "./App.css";
 import TermsConditions from "../PAGES/TermsConditions";
 import History from "../PAGES/History";
-
+import Achour from "../KARATEKAS/Achour"
 
 function App() {
     return (
@@ -28,9 +29,10 @@ function App() {
                 <Route path="/dojoslist" element={<DojoList />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/terms" element={<TermsConditions />} />
+                <Route path="/referees" element={<Referees />} />
                 <Route path="/history" element={<History />} />
                 <Route path="/x" element={<CalendarPoster />} />
-                
+                <Route path="/karateka/:id" element={<Achour />} />
                
 
 

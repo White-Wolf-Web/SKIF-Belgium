@@ -1,0 +1,48 @@
+.table {
+	margin-bottom: 0;
+	background-color: black;
+	color: aliceblue;
+	width: 100%;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+.table-dark {
+	--bs-table-bg: black;
+	--bs-table-striped-bg: #212529;
+}
+
+.table-dark:hover {
+	--bs-table-hover-bg: var(--whiteTransparent02);
+}
+.referee-level {
+    text-align: center;
+}
+
+.referee-center {
+	text-align: center;
+	font-weight: 700;
+	color: var(--secondaryColor) !important;
+}
+.referee-asterix {
+    margin-bottom: 5px;
+}
+
+@media all and (max-width: 767px) {  
+
+.col-dojo {
+    display: none;
+}
+}
+@media all and (max-width: 576px) {  
+    .referee-level {
+        display: none;
+    }
+   
+    }
+    @media all and (max-width: 450px) {  
+        .first-col {
+            display: none;
+        }
+       
+        }

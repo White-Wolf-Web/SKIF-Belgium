@@ -1,0 +1,26 @@
+.senseiCarrousel {
+    height: 400px !important;
+    width: 750px;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+
+}
+.senseiCarrouselImg {
+    margin-right: auto;
+    margin-left: auto;
+}
+.senseiModuleCarrousel {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+
+@media all and (max-width: 925px) {
+    .senseiCarrousel {
+       
+        height: auto!important;
+    }
+}

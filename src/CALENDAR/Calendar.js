@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 
 import { useTranslation } from "react-i18next";
 import CalendarPoster from "./CalendarPoster";
-import kancho from "../ASSETS/IMAGES/Posters/Kancho2022.webp";
+//import kancho from "../ASSETS/IMAGES/Posters/Kancho2022.webp";
 import "../i18n";
 
 export default function Calendar(props) {
@@ -85,8 +85,7 @@ export default function Calendar(props) {
                                         <div>{item.description}</div>
                                     </div>
                                    
-                                    <CalendarPoster />
-                                    <img src={kancho} alt="kancho" width={200} height={283} className="calendarPoster" />
+                                    <CalendarPoster  />
                                   
   
                                     
