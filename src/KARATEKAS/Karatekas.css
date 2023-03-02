@@ -18,6 +18,40 @@
   width: 90%;
 }
 
+.karatekaGallery {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.karatekaCard {
+    margin: 18px;
+    width: 18rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.karatekaCardName {
+    font-weight: 800;
+    color: var(--primaryColor);
+}
+.karatekaRank {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
 @media all and (max-width: 925px) {
     .senseiCarrousel {
        

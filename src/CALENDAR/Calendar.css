@@ -35,13 +35,33 @@ margin-bottom: 10px;
 margin-left: auto;
 margin-right: auto;
 }
-
+.calendar-accordion-header {
+   
+    display: flex;
+    width: 95%;
+    justify-content:left;
+}
+.breaking-space {
+    margin: 0 5px;
+}
 .calendarBody {
     display: flex;
     justify-content: space-between;
 }
+.calendarCardText {
 
+max-width: 550px;
+}
+.calendarCardCoverImg {
+    background-image: url(/public/images/Png/unsu.png);
+    margin: 0 0 0 20px;
+    width:200px;
+    height:283px;
+}
 
+.br {
+    margin-bottom: 10px; 
+}
 
 @media all and (max-width: 768px) {  
 
@@ -54,4 +74,26 @@ margin-right: auto;
        margin-right: auto;
        margin-top: 15px;
     }
+    .calendarCardCoverImg {
+        margin: 10px auto 0 auto;
+        width:200px;
+        height:283px;
+    }
+}
+@media all and (max-width: 576px) {  
+    .breaking-space {
+        margin: 0;
+    }
+    .calendar-accordion-header {
+        flex-direction: column;
+        width: 90%;
+        
+    }
+    .calendar-accordion-header div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+       
+    }
+
 }
