@@ -14,7 +14,6 @@ const karatekasData = [
 				lng: "4.4539556",
 			},
 		],
-		town: "Mortsel",
 		contact: [
 			{
 				email: " stephane.castrique@gmail.com",
@@ -37,13 +36,15 @@ const karatekasData = [
 			position: "Hombu Dojo Hoofdinstructeur",
 			skifPosition: "SKIF-B Hoofdinstructeur",
 			yudanshaKai: "Membre du SKIF-B YŪDANSHA KAI",
+			pic: "/images/Dojos/HombuDojo/Castrique-Stephane.jpeg",
+			town: "Mortsel",
+			mention: "",
 			studentOf: "",
 			ownStudent: {
 				student1: "",
 				student2: "",
 				student3: "",
 			},
-			pic: "/images/Dojos/HombuDojo/Castrique-Stephane.jpeg",
 		},
 		competition: {
 			worldChampionship: "",
@@ -59,9 +60,9 @@ const karatekasData = [
 		},
 		cover: "images/senseis/stephaneCastrique.jpg",
 		pictures: [
-			"/images/Dojos/HombuDojo/test6.jpg",
-			"/images/Dojos/HombuDojo/test5.jpg",
-			"/images/Dojos/HombuDojo/test7.jpg",
+			"/images/Karatekas/StephaneCastrique/StephaneCastrique1.webp",
+			"/images/Karatekas/StephaneCastrique/StephaneCastrique2.webp",
+			"/images/Karatekas/StephaneCastrique/StephaneCastrique3.webp",
 		],
 		referee: {
 			nationalLevel: "A",
@@ -85,7 +86,6 @@ const karatekasData = [
 				lng: "4.4194461",
 			},
 		],
-		town: "Woluwe-Saint-Lambert",
 		contact: [
 			{
 				email: "skif.poseidon@hotmail.com",
@@ -105,16 +105,18 @@ const karatekasData = [
 		karateka: {
 			name: "Achour Bakkioui",
 			rank: "7e Dan",
-			position: "Chef Instructeur",
-			skifPosition: "",
+			position: "Chef Instructeur au Poseidon Dojo",
+			skifPosition: "Président SKIF-B YŪDANSHA KAI",
 			yudanshaKai: "Président SKIF-B YŪDANSHA KAI",
+			pic: "/images/Dojos/Poseidon/AchourB.jpg",
+			town: "Woluwe-Saint-Lambert",
+			mention: "",
 			studentOf: "",
 			ownStudent: {
 				student1: "",
 				student2: "",
 				student3: "",
 			},
-			pic: "/images/Dojos/Poseidon/AchourB.jpg",
 		},
 		competition: {
 			worldChampionship: "",
@@ -131,9 +133,18 @@ const karatekasData = [
 		cover: "images/Senseis/achourBakkioui.jpg",
 		pictures: [
 			"/images/Dojos/Poseidon/KanazawaBrothersAchour.jpg",
-			"/images/Dojos/Poseidon/poseidon2.jpg",
-			"/images/Dojos/Poseidon/poseidonStageKumite.jpg",
+			"/images/Karatekas/Achour/AchourB1.webp",
+			"/images/Karatekas/Achour/AchourB2.webp",
+			"/images/Karatekas/Achour/AchourB3.webp",
+			"/images/Karatekas/Achour/AchourB4.webp",
+			"/images/Karatekas/Achour/AchourB5.webp",
 		],
+		referee: {
+			nationalLevel: "A",
+			internationalLicenceKata: "A 'KŌTŌ-CHŌ'",
+			internationalLicenceKumite: "A 'KŌTŌ-CHŌ'",
+			addComment: "Chef Arbitres Belgium (fr)",
+		},
 	},
 ];
 export default karatekasData;

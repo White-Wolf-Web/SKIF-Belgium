@@ -8,14 +8,15 @@
         "rules": "仲裁規則",
         "referee": "審判員",
         "administration": "管理",
-        "document": "文書"
+        "document": "文書",
+        "karatekas":"空手の道士"
     },
     "footer": {
         "becoming_a_member": " SKIF 会員になる",
         "space_member": " 会員専用エリア",
         "photo": " 写真",
         "conditions": " 一般条件",
-        "contact": "接触",
+        "contact": "連絡",
         "dojo": "挌技場"
     },
     "home": {
@@ -38,5 +39,8 @@
         "adress": "住所 : ",
         "contact": "接触 : ",
         "mail": "郵便 : "
+    },
+    "karateka" :{
+        "referee": "審判員"
     }
 }

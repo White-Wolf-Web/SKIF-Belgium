@@ -1,60 +1,81 @@
-.senseiCarrousel {
-    height: 400px !important;
-    width: 750px;
-    max-width: 100%;
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
-
+.karate-carrousel {
+	height: 400px !important;
+	width: 750px;
+	max-width: 100%;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+	overflow: hidden;
 }
-.senseiCarrouselImg {
-    margin-right: auto;
-    margin-left: auto;
+.karate-carrouselImg {
+	margin-right: auto;
+	margin-left: auto;
 }
-.senseiModuleCarrousel {
-  margin-right: auto;
-  margin-left: auto;
-  width: 90%;
+.karate-module-carrousel {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
 }
 
 .karatekaGallery {
-    display: flex;
-    max-width: 1000px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+	display: flex;
+	max-width: 1000px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .karatekaCard {
-    margin: 18px;
-    width: 18rem;
+	margin: 18px;
+	width: 400px;
+	height: 127px;
+	flex-direction: row;
+	border-color: var(--primaryColor);
 }
 
+.karateka-card-img {
+	width: 94px;
+	height: 125px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0;
+}
+.karateka-card-body {
+	padding: 5px 16px;
+	background-color: black;
+}
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .karatekaCardName {
-    font-weight: 800;
-    color: var(--primaryColor);
+	font-weight: 800;
+	color: var(--primaryColor);
 }
 .karatekaRank {
-    color: black;
-    font-weight: 600;
-    margin-bottom: 8px;
+	color: var(--secondaryColor);
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.karatekaTown {
+	margin-bottom: 8px;
+	color: var(--secondaryColor);
+}
+.karatekaMention {
+	margin-bottom: 8px;
+}
+.karatekaPosition {
+	margin-bottom: 2px;
+	color: var(--secondaryColor);
+}
+.karateka-info-container {
+	width: 90%;
+	margin: 10px auto;
 }
 
-
-
-
-
-
-
-
 @media all and (max-width: 925px) {
-    .senseiCarrousel {
-       
-        height: auto!important;
-    }
+	.karate-carrousel {
+		height: auto !important;
+	}
 }

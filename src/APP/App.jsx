@@ -16,7 +16,8 @@ import i18n from "../i18n";
 import "./App.css";
 import TermsConditions from "../PAGES/TermsConditions";
 import History from "../PAGES/History";
-import Achour from "../KARATEKAS/Achour"
+import Karateka from "../KARATEKAS/karateka"
+import Karatekas from "../KARATEKAS/Karatekas"
 
 function App() {
     return (
@@ -32,7 +33,9 @@ function App() {
                 <Route path="/referees" element={<Referees />} />
                 <Route path="/history" element={<History />} />
                 <Route path="/x" element={<CalendarPoster />} />
-                <Route path="/karateka/:id" element={<Achour />} />
+                <Route path="/karatekas/:id" element={<Karateka />} />
+                <Route path="/karatekas" element={<Karatekas />} />
+              
                
 
 

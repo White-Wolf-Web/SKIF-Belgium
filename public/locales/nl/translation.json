@@ -8,13 +8,16 @@
         "rules": "Wedstrijdreglementen",
         "referee": "Scheidsrechters",
         "administration": "Administratie",
-        "document": "Documenten"
+        "document": "Documenten",
+        "karatekas":"Karatékas"
     },
     "footer": {
         "becoming_a_member": " Lid worden bij SKIF-B",
         "space_member": " Ledenadminidtratie",
         "photo": " Fotos",
-        "conditions": " Voorwaarden en bepalingen"
+        "conditions": " Voorwaarden en bepalingen",
+        "contact": "Contact",
+        "dojo": "Dojos"
     },
     "home": {
         "title": "Shotokan Karate-do International Federation - België",
@@ -116,5 +119,11 @@
                 "sunday": "Zondag:\\n\\nvan 10:00 tot 11:00 Kinderen & Volwassenen Beginners - Algemene les \n van 11:00 tot 12:00 Kinderen & Volwassenen Oranje gordel en hoger Algemene les \n van 12:00 tot 13:30 Kinderen & Volwassenen Bruine & Zwarte gordels Algemene les"
             }
         }
-    ]
+    ],
+    "karateka" :{
+        "referee": "Scheidsrechter",
+        "nationalLevel": "België ",
+        "internationalLicenceKata": "Internationale licentie Kata ",
+        "internationalLicenceKumite": "Internationale licentie Kumite "
+    }
 }

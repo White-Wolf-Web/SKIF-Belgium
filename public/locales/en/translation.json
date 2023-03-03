@@ -8,13 +8,16 @@
         "rules": "Rules",
         "referee": "Referee",
         "administration": "Administration",
-        "document": "Documents"
+        "document": "Documents",
+        "karatekas":"Karatékas"
     },
     "footer": {
         "becoming_a_member": " Become a member of SKIF-B",
         "space_member": " Membership",
         "photo": " Pictures",
-        "conditions": " Terms & Conditions"
+        "conditions": " Terms & Conditions",
+        "contact": "Contact",
+        "dojo": "Dojos"
     },
     "home": {
         "title": "Shotokan Karate-do International Federation - Belgium",
@@ -129,5 +132,11 @@
                 }
             }
         }
-    ]
+    ],
+    "karateka" :{
+        "referee": "Referee",
+        "nationalLevel": "Belgium ",
+        "internationalLicenceKata": "International licence Kata ",
+        "internationalLicenceKumite": "International licence Kumite "
+    }
 }

@@ -17,7 +17,8 @@ export default function NavTabThree() {
                 <Dropdown.Item>{t("nav.board")}</Dropdown.Item>
                 <Dropdown.Item>{t("nav.rules")}</Dropdown.Item>
                 <Dropdown.Item href="/referees" >{t("nav.referee")}</Dropdown.Item>
-                <Dropdown.Item href="/dojoslist">Dojos</Dropdown.Item>
+                <Dropdown.Item href="/dojoslist">{t("footer.dojo")}</Dropdown.Item>
+                <Dropdown.Item href="/karatekas">{t("nav.karatekas")}</Dropdown.Item>
                 <Dropdown.Item>YŪDANSHA KAI</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>

@@ -8,13 +8,16 @@
         "rules": "Réglement arbitrage",
         "referee": "Arbitres",
         "administration": "Administration",
-        "document": "Documents"
+        "document": "Documents",
+        "karatekas":"Karatékas"
     },
     "footer": {
         "becoming_a_member": " Devenir Membre SKIF",
         "space_member": " Espace Membre",
         "photo": " Photos",
-        "conditions": " Conditions Générales"
+        "conditions": " Conditions Générales",
+        "contact": "Contact",
+        "dojo": "Dojos"
     },
     "home": {
         "title": "Shotokan Karate-do International Federation - Belgique",
@@ -132,5 +135,12 @@
                 }
             }
         }
-    ]
+    ],
+    "karateka" :{
+        "referee": "Arbitre",
+        "nationalLevel": "Belgique ",
+        "internationalLicenceKata": "Licence internationale Kata ",
+        "internationalLicenceKumite": "Licence internationale Kumite ",
+       
+    }
 }

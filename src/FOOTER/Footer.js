@@ -32,12 +32,12 @@ export default function Footer() {
                     </li>
                     <li>
                         <a>
-                            <i className="fa-solid fa-envelope"></i> Contact
+                            <i className="fa-solid fa-envelope"></i> {t("footer.contact")}
                         </a>
                     </li>
                     <li>
                         <Link to="/dojoslist">
-                            <i className="fa-solid fa-dungeon"></i>&nbsp;Dojos
+                            <i className="fa-solid fa-dungeon"></i>&nbsp;{t("footer.dojo")}
                         </Link>
                     </li>
                     <li>
