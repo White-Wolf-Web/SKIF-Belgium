@@ -60,6 +60,7 @@
         "adress": "Adress"
     },
     "referees": {
+        "referee":"REFEREES",
         "firstName": "First Name",
         "lastName": "Last Name",
         "dojo": "Dojo",

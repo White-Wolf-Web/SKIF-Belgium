@@ -60,6 +60,7 @@
         "adress":"Adresse"
     },
     "referees": {
+        "referee":"ARBITRES",
         "firstName": "Prénom",
         "lastName": "Nom",
         "dojo": "Dojo",
@@ -140,7 +141,7 @@
         "referee": "Arbitre",
         "nationalLevel": "Belgique ",
         "internationalLicenceKata": "Licence internationale Kata ",
-        "internationalLicenceKumite": "Licence internationale Kumite ",
+        "internationalLicenceKumite": "Licence internationale Kumite "
        
     }
 }

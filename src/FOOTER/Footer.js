@@ -57,28 +57,28 @@ export default function Footer() {
                     <img
                         src={BroderieSkif}
                         alt="Broderie que l'on retrouve sur les kimonos de karaté skif"
-                        className="skifBroderie"
+                        className="skifBroderie" width="70px" height="130px" loading="lazy" title="true"
                     />
                     <ul className="icons">
                         <li>
                             <a href="#">
-                                <i className="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram" alt="icon Instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-twitter" alt="icon twitter"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i className="fa-brands fa-facebook"></i>
+                                <i className="fa-brands fa-facebook" alt="icon Facebook"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div className="logoSkifWorld">
-                    <img src={LogoSkifWorld} alt="logo Skif world basé au Japon" />
+                    <img src={LogoSkifWorld} alt="logo Skif world basé au Japon"  width= "175px" height="175px" title="true" loading="lazy" />
                 </div>
             </div>
         </footer>

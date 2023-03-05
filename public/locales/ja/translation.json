@@ -40,6 +40,9 @@
         "contact": "接触 : ",
         "mail": "郵便 : "
     },
+    "referees": {
+        "referee":"審判員"
+    },
     "karateka" :{
         "referee": "審判員"
     }

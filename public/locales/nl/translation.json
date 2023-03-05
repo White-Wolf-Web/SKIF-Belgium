@@ -21,14 +21,14 @@
     },
     "home": {
         "title": "Shotokan Karate-do International Federation - België",
-        "section1 h2": "Welkom bij SKIF-B",
-        "section1 text": "In SKIF-B beoefenen we het traditionele Shōtōkan Karate Dō zoals onderwezen in de SKIF Honbu Dōjō in Tōkyō - Japan. De instructie is gebaseerd op een uitgebreide syllabus waardoor iedereen, ongeacht geslacht, leeftijd en vaardigheid, vooruitgang kan boeken in Shōtōkan Karate-dō.",
-        "section2 h2": "Onze banden met Japan",
-        "section2 text": "Sterke banden met het hoofdkwartier in Japan bieden onze leden de mogelijkheid om regelmatig les van hoge kwaliteit te krijgen, rechtstreeks van de beste Japanse experts. Al onze dan graden zijn geregistreerd in Japan.",
-        "section3 h2": "De Karate Familie",
-        "section3 text": "Als SKIF lid maakt u deel uit van een wereldwijde 'Karate Familie van SKIF Karateka'. Vandaar de 'F' in 'SKIF' die niet alleen 'Federatie' betekent maar ook 'Vriend' of 'Familie'",
-        "section4 h2": "Karate wedstrijden",
-        "section4 text": "Wij bieden de mogelijkheid aan jonge karateka om te wedijveren in een veilige en respectvolle omgeving, in België en ook in het buitenland. Wij moedigen u aan om deze site te verkennen om meer over ons en SKIF te weten te komen."
+        "section1_h2": "Welkom bij SKIF-B",
+        "section1_text": "In SKIF-B beoefenen we het traditionele Shōtōkan Karate Dō zoals onderwezen in de SKIF Honbu Dōjō in Tōkyō - Japan. De instructie is gebaseerd op een uitgebreide syllabus waardoor iedereen, ongeacht geslacht, leeftijd en vaardigheid, vooruitgang kan boeken in Shōtōkan Karate-dō.",
+        "section2_h2": "Onze banden met Japan",
+        "section2_text": "Sterke banden met het hoofdkwartier in Japan bieden onze leden de mogelijkheid om regelmatig les van hoge kwaliteit te krijgen, rechtstreeks van de beste Japanse experts. Al onze dan graden zijn geregistreerd in Japan.",
+        "section3_h2": "De Karate Familie",
+        "section3_text": "Als SKIF lid maakt u deel uit van een wereldwijde 'Karate Familie van SKIF Karateka'. Vandaar de 'F' in 'SKIF' die niet alleen 'Federatie' betekent maar ook 'Vriend' of 'Familie'",
+        "section4_h2": "Karate wedstrijden",
+        "section4_text": "Wij bieden de mogelijkheid aan jonge karateka om te wedijveren in een veilige en respectvolle omgeving, in België en ook in het buitenland. Wij moedigen u aan om deze site te verkennen om meer over ons en SKIF te weten te komen."
     },
     "federal_calendar": {
         "h1": "FEDERALE KALENDER",
@@ -60,6 +60,7 @@
         "adress": "Adres"
     },
     "referees": {
+        "referee":"SCHEIDSRECHTER",
         "firstName": "Voornaam",
         "lastName": "Achternaam",
         "dojo": "Dojo",

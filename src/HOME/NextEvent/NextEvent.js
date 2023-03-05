@@ -6,7 +6,7 @@ import "./NextEvent.css";
 export default function NextEvent() {
     return (
         <div>
-            <img src={Tanaka2023Tour} alt="Prochain évenement" width={362} height={512} className="nextEvent" />
+            <img src={Tanaka2023Tour} alt="Prochain évenement" width={362} height={512} className="nextEvent" loading="lazy" title="true"/>
             
         </div>
     );

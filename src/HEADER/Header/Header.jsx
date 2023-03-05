@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <>
             <div className="enTete">
-                <img src={SkifBLogo} alt="Logo de la skif en Belgique" className="logoSkifB" />
+                <img src={SkifBLogo} alt="Logo de la skif en Belgique" width = "153px" height = "150px" className="logoSkifB" title="logo Skif Belgium" />
                 <div className="skifb">
                     <div className="">
                         <p>SKIF</p>

@@ -21,6 +21,7 @@ export default function Referees() {
 	}, []);
 	return (
 		<main>
+		<h1>{t("referees.referee")}</h1>
 			<table className="table table-striped table-dark table-hover">
 				<thead>
 					<tr>
