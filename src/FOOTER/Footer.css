@@ -81,14 +81,16 @@ footer a:hover {
 		display: flex;
 	}
 }
+@media all and (max-width: 500px) {
+.footer__liens {
+	max-width: 70%;
+}
+}
 @media all and (max-width: 403px) {
 	footer {
 		height: auto;
 	}
 	footer a {
 		font-size: 14.8px;
-	}
-	.footer__liens {
-		max-width: 70%;
 	}
 }
