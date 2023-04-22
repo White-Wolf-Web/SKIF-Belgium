@@ -6,3 +6,22 @@
     float: left;
  margin : 0 20px 10px 0;
 }
+.text-center {
+    text-align: center;
+}
+.p-reduit {
+    margin-top: 3px; /* Ajustez cette valeur selon l'espace souhaité */
+    margin-bottom: 0px; /* Ajustez cette valeur selon l'espace souhaité */
+  }
+  .p-margin-bottom3 {
+    margin-bottom: 3px;
+  }
+  .p-margin-bottom5 {
+    margin-bottom: 5px;
+  }
+  .p-margin-bottom8 {
+    margin-bottom: 8px;
+  }
+  .ul-reduit {
+    padding-left: 10px!important; /* Ajustez cette valeur selon la marge souhaitée */
+  }

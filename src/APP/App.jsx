@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Routes, Route } from "react-router-dom";
 import Home from "../HOME/Home/Home ";
 import Header from "../HEADER/Header/Header";
@@ -18,8 +18,20 @@ import TermsConditions from "../PAGES/TermsConditions";
 import History from "../PAGES/History";
 import Karateka from "../KARATEKAS/karateka"
 import Karatekas from "../KARATEKAS/Karatekas"
+import KarateConcept from "../PAGES/KarateConcept";
 
 function App() {
+    const [isI18nInitialized, setIsI18nInitialized] = useState(false);
+    useEffect(() => {
+        i18n.on('initialized', () => {
+          setIsI18nInitialized(true);
+        });
+      }, []);
+    
+      if (!isI18nInitialized) {
+        return null; 
+      }
+    
     return (
         <I18nextProvider i18n={i18n}>
             <Header />
@@ -35,11 +47,7 @@ function App() {
                 <Route path="/x" element={<CalendarPoster />} />
                 <Route path="/karatekas/:id" element={<Karateka />} />
                 <Route path="/karatekas" element={<Karatekas />} />
-              
-               
-
-
-                
+                <Route path="/karateconcept" element={<KarateConcept />} />
                 <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />

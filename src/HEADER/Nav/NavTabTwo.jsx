@@ -7,18 +7,32 @@ import "../../i18n";
 import { Link } from "react-router-dom";
 
 export default function NavTabTwo() {
-    const { t } = useTranslation();
-    return (
-        <Dropdown as={NavItem}>
-            <Dropdown.Toggle as={NavLink}>SKIF</Dropdown.Toggle>
-            <Dropdown.Menu>
-                <Dropdown.Item><Link to="/history">{t("nav.history")}</Link></Dropdown.Item>
-                <Dropdown.Item>{t("nav.concept")}</Dropdown.Item>
-                <Dropdown.Item>Kanazawa Soké</Dropdown.Item>
-                <Dropdown.Item>Kanazawa Kancho</Dropdown.Item>
-                <Dropdown.Item>Murakami Manabu</Dropdown.Item>
-                <Dropdown.Item>SKIEF</Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
-    );
+  const { t } = useTranslation();
+  return (
+    <Dropdown as={NavItem}>
+      <Dropdown.Toggle as={NavLink}>SKIF</Dropdown.Toggle>
+      <Dropdown.Menu>
+        <Dropdown.Item as="div">
+          <Link
+            to="/history"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            {t("nav.history")}
+          </Link>
+        </Dropdown.Item>
+        <Dropdown.Item as="div">
+          <Link
+            to="/karateconcept"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            {t("nav.concept")}
+          </Link>
+        </Dropdown.Item>
+        <Dropdown.Item>Kanazawa Soke</Dropdown.Item>
+        <Dropdown.Item>Kanazawa Kancho</Dropdown.Item>
+        <Dropdown.Item>Murakami Manabu</Dropdown.Item>
+        <Dropdown.Item>SKIEF</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+  );
 }

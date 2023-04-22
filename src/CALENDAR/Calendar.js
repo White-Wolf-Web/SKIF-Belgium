@@ -5,29 +5,37 @@ import { useTranslation } from "react-i18next";
 //import CalendarPoster from "./CalendarPoster";
 import CalendarPdf from "./CalendarPdf";
 import "../i18n";
+import FilterContainer from "./CalendarFilter";
+import Loader from "../UTILS/Loader.js"
 
 export default function Calendar(props) {
 	const { t } = useTranslation();
 	const [items, setItems] = useState([]);
+	const [loading, setLoading] = useState(true); 
 	const urlPdf = "https://skifb-admin.be/api/CalendarAPI/GetFile?filename=";
 
 	useEffect(() => {
 		async function fetchData() {
-			try {
-				const response = await fetch("https://skifb-admin.be/api/CalendarAPI/GetCalendar");
-				const data = await response.json();
-				setItems(data);
-			} catch (e) {
-				console.log(e);
-			}
+		  try {
+			const response = await fetch("https://skifb-admin.be/api/CalendarAPI/GetCalendar");
+			const data = await response.json();
+			setItems(data);
+			setLoading(false); 
+		  } catch (e) {
+			console.log(e);
+			setLoading(false); 
+		  }
 		}
 		fetchData();
-	}, []);
+	  }, []);
+	
 
 	return (
 		<main>
 			<h1>{t("federal_calendar.h1")}</h1>
+			<FilterContainer />
 			<div className="calendarReact">
+			{loading ? ( <Loader /> ) : (
 				<div className="calendarAccordion">
 					{items.map((item) => (
 						<Accordion defaultActiveKey="false" key={item.id} flush>
@@ -85,10 +93,11 @@ export default function Calendar(props) {
 									/>
 								</Accordion.Body>
 							</Accordion.Item>
-						</Accordion>
-					))}
-				</div>{" "}
-			</div>
-		</main>
-	);
+							</Accordion>
+            ))}
+          </div>
+        )}
+      </div>
+    </main>
+  );
 }

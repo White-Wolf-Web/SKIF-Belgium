@@ -62,7 +62,23 @@ max-width: 550px;
 .br {
     margin-bottom: 10px; 
 }
+.calendarFilterContainer {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    float: none !important;
+    display: flex;
+    justify-content: space-around;
 
+    
+}
+.calendarFilterContainer .btn-primary {
+background-color: #E6C619;
+border: #E6C619;
+color:#840104;
+font-weight: 700;
+
+}
 @media all and (max-width: 768px) {  
 
     .calendarBody {

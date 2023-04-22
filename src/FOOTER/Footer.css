@@ -13,7 +13,7 @@ footer .container {
 	max-width: 90%;
 	width: 1000px;
 	margin: 0 auto 0 auto;
-	padding: 0 4.5% 0 4.5%;
+	
 }
 .broderieSociale {
 	max-width: 45%;
@@ -69,6 +69,13 @@ footer a:hover {
 	opacity: 0.8 !important;
 	color: var(--secondaryColor);
 }
+.post-footer {
+	background-color: var( --primaryColorFonce);
+	color: var(--secondaryColor);
+	display: flex;
+	justify-content: center;
+}
+
 @media all and (min-width: 600px) {
 	.logoSkifWorld {
 		display: flex;
@@ -80,5 +87,8 @@ footer a:hover {
 	}
 	footer a {
 		font-size: 14.8px;
+	}
+	.footer__liens {
+		max-width: 70%;
 	}
 }

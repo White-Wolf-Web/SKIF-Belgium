@@ -1,143 +1,226 @@
 {
-    "nav": {
-        "home": "Home",
-        "history": "History",
-        "concept": "Karate concept",
-        "calendar": "Calendar",
-        "board": "Board of directors",
-        "rules": "Rules",
-        "referee": "Referee",
-        "administration": "Administration",
-        "document": "Documents",
-        "karatekas":"Karatékas"
-    },
-    "footer": {
-        "becoming_a_member": " Become a member of SKIF-B",
-        "space_member": " Membership",
-        "photo": " Pictures",
-        "conditions": " Terms & Conditions",
-        "contact": "Contact",
-        "dojo": "Dojos"
-    },
-    "home": {
-        "title": "Shotokan Karate-do International Federation - Belgium",
-        "section1_h2": "Welcome to SKIF-B",
-        "section1_text": "In SKIF-B we teach traditional Shōtōkan Karate Dō as taught at the SKIF Honbu Dōjō in Tōkyō - Japan. Instruction is based on a comprehensive syllabus allowing everyone, regardless of sex, age and ability to make progress in Shōtōkan Karate-Dō.",
-        "section2_h2": "Our links with Japan",
-        "section2_text": "Strong ties with Japan Headquarters provide the opportunity for our members to regulary receive highclass instruction directly from Japan's top experts. All our dangrades are registered in Japan.",
-        "section3_h2": "The Karate Family",
-        "section3_text": "As SKIF member you are part of a global 'Karate Family of SKIF Karateka'. Hence the 'F' in 'SKIF' which not only means 'Federation' but also 'Friend' or 'Family'.",
-        "section4_h2": "Karate competitions",
-        "section4_text": "We offer the possibility to young karateka to compete in a safe and respectful environment in Belgium and also abroad. We encourage you to explore this site to know more about us and SKIF."
-    },
-    "federal_calendar": {
-        "h1": "FEDERAL CALENDAR",
-        "club": "Club",
-        "timetable": "Schedule from ",
-        "to": "to ",
-        "location": "Location : ",
-        "adress": "Adress : ",
-        "contact": "Contact : ",
-        "mail": "E-mail : "
-    },
-    "country": "Belgium",
-    "weekDays": {
-        "monday": "Monday: ",
-        "tuesday": "Tuesday: ",
-        "wednesday": "Wednesday: ",
-        "thursday": "Thursday: ",
-        "friday": "Friday: ",
-        "saturday": "Saturday: ",
-        "sunday": "Sunday: "
-    },
-    "words": {
-        "from": "",
-        "chiefInstructor": "Chief Instructor",
-        "instructor": "Instructor",
-        "schedule": "Schedule",
-        "rank": "Rank: ",
-        "contact": "Contact",
-        "adress": "Adress"
-    },
-    "referees": {
-        "referee":"REFEREES",
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "dojo": "Dojo",
-        "nationalLevel": "NL *",
-        "internationalLicenceKata": "IL** Kata",
-        "internationalLicenseKumite": "IL** Kumite",
-        "1asterix": "National Level",
-        "2asterix": "International Licence"
-    },
-    "termsconditions": {
-        "terms_h1": "Terms and Conditions",
-        "terms_h2_1": "General provisions",
-        "terms_p_1_1": "The 'Shotokan Karate International Belgium' is a non-profit organization with the aim of practicing Shotokan karate according to the traditional guidelines of the masters of the international federation: Shotokan Karate-Do International Federation (S.K.I.F)",
-        "terms_p_1_2": "VAT Company number: N/A",
-        "terms_p_1_3": "E-mail address: daniel.kina@skifb.be",
-        "terms_p_1_4": "Phone number: ",
-        "terms_p_1_5": "Website: www.skifb.be",
-        "terms_h2_2": "Dojo (Club) membership",
-        "terms_p_2_1": "A dojo (club) is an autonomous, local sports association, whose objective is to organize karate activities and promote karate sport. SKIFB groups karatekas in Belgium. The individual karatekas must group together in a dojo (club).All normal relations between SKIFB and the individual karatekas it unites takes place through the dojo’s (clubs).",
-        "terms_p_2_2": "A dojo (club) wishing to join SKIFB as a member must follow the procedure described in the House Rules, which can be found on SKIFB’s website.",
-        "terms_h2_3": "Individual membership",
-        "terms_p_3_1": "Every karateka must possess a regulatory SKIFB license. This means that the karateka must be affiliated with a dojo (club) recognized by SKIFB.",
-        "terms_p_3_2": "A karateka is only a member of the dojo (club) that is mentioned on the license.",
-        "terms_p_3_3": "An individual membership without a dojo (club) is not possible.",
-        "terms_p_3_4": "The license allows the karateka to participate in the activities organized by SKIFB or its members.",
-        "terms_p_3_5": "Any SKIFB director or their representative can request the presentation of a license.",
-        "terms_p_3_6": "Karatekas whose license is not valid will be refused from participation in activities of the federation.",
-        "terms_p_3_7": "Karatekas, who pay and/or renew their license, cannot reclaim the amount paid for whatever reason.",
-        "terms_h2_4": "Ending membership",
-        "terms_p_4_1": "When a member wishes to terminate his/her SKIF-B membership, he/she must stop paying the membership fee upon receipt of the renewal fee e-mail. Non-payment of the membership fee automatically puts the member on non-active status in the membership database. After a period of five years as a non-active member, all data of the member will automatically be removed from the SKIF-B member database (see also the Privacy Policy)."
-    },
-    "history": {
-        "hist_h1":"HISTORY",
-        "hist_p1":"Although it is widely acknowledged that karate dō developed from fighting systems originating in China, there are few documents in existence that can verify the exact process in which this took place. In 1392, over 500 Chinese migrated from south China to Okinawa, and established a community in the area known as Kume. They introduced Chinese culture to the Ryukyu people, and it is thought that a number of Chinese hand-to-hand combat practitioners were also in this community.",
-        "hist_p2":"Much later on, the Qing dynasty military envoy, Kushanku, an expert in the martial art of Ch’uan Fa, around 1756 introduced it to Okinawa.",
-        "hist_p3":"When Shimazu Iehisa of the Satsuma clan invaded the islands in 1609 all weapons were confiscated from the locals. Ryukyu (Okinawa) was still allowed to maintain its tributary relationship with China, but the prohibition of weapons was strictly enforced for the next 250 years. The training of hand-to-hand combat was conducted secretly as the Satsuma authorities intensified their policies of disarmament and keeping control over the Ryukyuans.",
-        "hist_p4":"There are many theories surrounding the roots of the term “karate”. It is unclear who was the first to use the word and when. However the ancient Ryukyuan fighting system was originally referred to as “te”, and the standard assumption is that “kara-te”refers to the martial techniques learned from China. (kara = China)",
-        "hist_p5":"Whatever the case, it is clear that karate evolved in Okinawa under considerable Chinese influence. Over time, the once secret techniques became widespread throughout Okinawa. In 1905, Itosu Anko introduced karate into the school curriculum in Okinawa.",
-        "hist_p6":"Karate was first seen on the Japanese mainland in 1916-1917 when the Okinawan schoolteacher Gichin Funakoshi gave a public demonstration at the Butōkuden in Kyōtō. In 1922, the Ministry of Education conducted the first Physical Education Expgichin-funakoshi1-concentrateosition in Tōkyō, to which Funakoshi was invited to demonstrate the Kushanku-no-kata. Kanō Jigorō, the founder of Judō, even requested Funakoshi to show kata and kumite to the members of the Kodōkan Judo Institute. Funakoshi remained in Tōkyō to teach karate from then on.",
-        "hist_p7":"Apart from Funakoshi, other karatemasters came to mainland Japan. These masters created over 100 different schools of karate both in Okinawa and mainland Japan.",
-        "hist_p8":"Among them Shōtōkan, Shitō-ryu, Goju-ryu and Wadō-ryu are the most succesful in terms of the number of students and are referred to as the “great four” schools of Karate dō.",
-        "hist_p9":"University clubs were at the forefront of karate’s popularisation in mainland Japan. The educational potential of karate was soon acknowledged, and its designation was changed to “karate-dō” to underscore its moral education, and its potential as means for self-perfection. (kara = empty)",
-        "hist_p10":"From the early 1950's several karate groups started experimenting with freestyle matches in a competition format. In 1957 the Japan Karate Association organised the first official “All Japan Championship”. Mr. Kanazawa Hirokazu took first place in kumite.",
-        "hist_p11":"From the beginning of the 1960's, most karate organizations dispatched instructors all over the world. Mr. Kanazawa Hirokazu was first send to Hawai and later on to Europe to teach “Shōtōkan karate”."
-    },
-    "dojos": [
-        {
-            "id": "1001",
-            "hombuDojo": {
-                "schedules": {
-                    "monday": ["Monday: ", "Adults (+13 years) ONLY Black belts"],
-                    "tuesday": ["Tuesday: ", "from 19:30 to 21:00 ANY Black belts"],
-                    "wednesday": [
-                        "Wednesday: ",
-                        "from 14:00 to 15:00 Beginners (+6 years)",
-                        "from 15:00 to 16:00 Children Orange belt and above"
-                    ],
-                    "thursday": ["Thursday: ", "from 19:30 to 21:00 Adults (+13 years)"],
-                    "friday": [
-                        "Friday: ",
-                        "from 19:30 to 21:00 Kumite training (minimum 12 years & Blue belt)"
-                    ],
-                    "saturday": [],
-                    "sunday": [
-                        "Sunday: ",
-                        "from 10:00 to 11:00 Children & Adults Beginners - General class",
-                        "from 11:00 to 12:00 Children & Adults Orange belt and above General lesson",
-                        "from 12:00 to 13:30 Children & Adults Brown & Black belts General lesson"
-                    ]
-                }
-            }
-        }
-    ],
-    "karateka" :{
-        "referee": "Referee",
-        "nationalLevel": "Belgium ",
-        "internationalLicenceKata": "International licence Kata ",
-        "internationalLicenceKumite": "International licence Kumite "
-    }
+	"nav": {
+		"home": "Home",
+		"history": "History",
+		"concept": "Karate concept",
+		"calendar": "Calendar",
+		"board": "Board of directors",
+		"rules": "Rules",
+		"referee": "Referees",
+		"administration": "Administration",
+		"document": "Documents",
+		"karatekas": "Karatékas",
+		"refereeing": "Refereeing",
+		"score_sheet": "Score sheet",
+		"referee_gestures": "Referee gestures",
+		"referee_comittee": "SKIEF Referee board",
+		"technical_regulations": "Technical regulations",
+		"insurance_accident_report": "Insurance accident report",
+		"grading_syllabus": "Grading syllabus",
+		"dan_examination_request_form": "Dan examination request form",
+		"important_points": "Important points during seminars & training",
+		"statutes": "Statutes",
+		"who_s_who": "Who’s who",
+		"photo_gallery": "Photo gallery"
+	},
+	"footer": {
+		"becoming_a_member": " Become a member of SKIF-B",
+		"space_member": " Membership",
+		"photo": " Pictures",
+		"conditions": " Terms & Conditions",
+		"contact": "Contact",
+		"dojo": "Dojos",
+		"legal_notice": "Legal notice",
+		"privacy_policy": " Privacy policy"
+	},
+	"home": {
+		"title": "Shotokan Karate-do International Federation - Belgium",
+		"section1_h2": "Welcome to SKIF-B",
+		"section1_text": "In SKIF-B we teach traditional Shōtōkan Karate Dō as taught at the SKIF Honbu Dōjō in Tōkyō - Japan. Instruction is based on a comprehensive syllabus allowing everyone, regardless of sex, age and ability to make progress in Shōtōkan Karate-Dō.",
+		"section2_h2": "Our links with Japan",
+		"section2_text": "Strong ties with Japan Headquarters provide the opportunity for our members to regulary receive highclass instruction directly from Japan's top experts. All our dangrades are registered in Japan.",
+		"section3_h2": "The Karate Family",
+		"section3_text": "As SKIF member you are part of a global 'Karate Family of SKIF Karateka'. Hence the 'F' in 'SKIF' which not only means 'Federation' but also 'Friend' or 'Family'.",
+		"section4_h2": "Karate competitions",
+		"section4_text": "We offer the possibility to young karateka to compete in a safe and respectful environment in Belgium and also abroad. We encourage you to explore this site to know more about us and SKIF."
+	},
+	"federal_calendar": {
+		"h1": "FEDERAL CALENDAR",
+		"club": "Club",
+		"timetable": "Schedule from ",
+		"to": "to ",
+		"location": "Location : ",
+		"adress": "Adress : ",
+		"contact": "Contact : ",
+		"mail": "E-mail : "
+	},
+	"country": "Belgium",
+	"weekDays": {
+		"monday": "Monday: ",
+		"tuesday": "Tuesday: ",
+		"wednesday": "Wednesday: ",
+		"thursday": "Thursday: ",
+		"friday": "Friday: ",
+		"saturday": "Saturday: ",
+		"sunday": "Sunday: "
+	},
+	"words": {
+		"from": "",
+		"chiefInstructor": "Chief Instructor",
+		"instructor": "Instructor",
+		"schedule": "Schedule",
+		"rank": "Rank: ",
+		"contact": "Contact",
+		"adress": "Adress"
+	},
+	"referees": {
+		"referee": "REFEREES",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"dojo": "Dojo",
+		"nationalLevel": "NL *",
+		"internationalLicenceKata": "IL** Kata",
+		"internationalLicenseKumite": "IL** Kumite",
+		"1asterix": "National Level",
+		"2asterix": "International Licence"
+	},
+	"termsconditions": {
+		"terms_h1": "Terms and Conditions",
+		"terms_h2_1": "General provisions",
+		"terms_p_1_1": "The 'Shotokan Karate International Belgium' is a non-profit organization with the aim of practicing Shotokan karate according to the traditional guidelines of the masters of the international federation: Shotokan Karate-Do International Federation (S.K.I.F)",
+		"terms_p_1_2": "VAT Company number: N/A",
+		"terms_p_1_3": "E-mail address: daniel.kina@skifb.be",
+		"terms_p_1_4": "Phone number: ",
+		"terms_p_1_5": "Website: www.skifb.be",
+		"terms_h2_2": "Dojo (Club) membership",
+		"terms_p_2_1": "A dojo (club) is an autonomous, local sports association, whose objective is to organize karate activities and promote karate sport. SKIFB groups karatekas in Belgium. The individual karatekas must group together in a dojo (club).All normal relations between SKIFB and the individual karatekas it unites takes place through the dojo’s (clubs).",
+		"terms_p_2_2": "A dojo (club) wishing to join SKIFB as a member must follow the procedure described in the House Rules, which can be found on SKIFB’s website.",
+		"terms_h2_3": "Individual membership",
+		"terms_p_3_1": "Every karateka must possess a regulatory SKIFB license. This means that the karateka must be affiliated with a dojo (club) recognized by SKIFB.",
+		"terms_p_3_2": "A karateka is only a member of the dojo (club) that is mentioned on the license.",
+		"terms_p_3_3": "An individual membership without a dojo (club) is not possible.",
+		"terms_p_3_4": "The license allows the karateka to participate in the activities organized by SKIFB or its members.",
+		"terms_p_3_5": "Any SKIFB director or their representative can request the presentation of a license.",
+		"terms_p_3_6": "Karatekas whose license is not valid will be refused from participation in activities of the federation.",
+		"terms_p_3_7": "Karatekas, who pay and/or renew their license, cannot reclaim the amount paid for whatever reason.",
+		"terms_h2_4": "Ending membership",
+		"terms_p_4_1": "When a member wishes to terminate his/her SKIF-B membership, he/she must stop paying the membership fee upon receipt of the renewal fee e-mail. Non-payment of the membership fee automatically puts the member on non-active status in the membership database. After a period of five years as a non-active member, all data of the member will automatically be removed from the SKIF-B member database (see also the Privacy Policy)."
+	},
+	"history": {
+		"hist_h1": "HISTORY",
+		"hist_p1": "Although it is widely acknowledged that karate dō developed from fighting systems originating in China, there are few documents in existence that can verify the exact process in which this took place. In 1392, over 500 Chinese migrated from south China to Okinawa, and established a community in the area known as Kume. They introduced Chinese culture to the Ryukyu people, and it is thought that a number of Chinese hand-to-hand combat practitioners were also in this community.",
+		"hist_p2": "Much later on, the Qing dynasty military envoy, Kushanku, an expert in the martial art of Ch’uan Fa, around 1756 introduced it to Okinawa.",
+		"hist_p3": "When Shimazu Iehisa of the Satsuma clan invaded the islands in 1609 all weapons were confiscated from the locals. Ryukyu (Okinawa) was still allowed to maintain its tributary relationship with China, but the prohibition of weapons was strictly enforced for the next 250 years. The training of hand-to-hand combat was conducted secretly as the Satsuma authorities intensified their policies of disarmament and keeping control over the Ryukyuans.",
+		"hist_p4": "There are many theories surrounding the roots of the term “karate”. It is unclear who was the first to use the word and when. However the ancient Ryukyuan fighting system was originally referred to as “te”, and the standard assumption is that “kara-te”refers to the martial techniques learned from China. (kara = China)",
+		"hist_p5": "Whatever the case, it is clear that karate evolved in Okinawa under considerable Chinese influence. Over time, the once secret techniques became widespread throughout Okinawa. In 1905, Itosu Anko introduced karate into the school curriculum in Okinawa.",
+		"hist_p6": "Karate was first seen on the Japanese mainland in 1916-1917 when the Okinawan schoolteacher Gichin Funakoshi gave a public demonstration at the Butōkuden in Kyōtō. In 1922, the Ministry of Education conducted the first Physical Education Expgichin-funakoshi1-concentrateosition in Tōkyō, to which Funakoshi was invited to demonstrate the Kushanku-no-kata. Kanō Jigorō, the founder of Judō, even requested Funakoshi to show kata and kumite to the members of the Kodōkan Judo Institute. Funakoshi remained in Tōkyō to teach karate from then on.",
+		"hist_p7": "Apart from Funakoshi, other karatemasters came to mainland Japan. These masters created over 100 different schools of karate both in Okinawa and mainland Japan.",
+		"hist_p8": "Among them Shōtōkan, Shitō-ryu, Goju-ryu and Wadō-ryu are the most succesful in terms of the number of students and are referred to as the “great four” schools of Karate dō.",
+		"hist_p9": "University clubs were at the forefront of karate’s popularisation in mainland Japan. The educational potential of karate was soon acknowledged, and its designation was changed to “karate-dō” to underscore its moral education, and its potential as means for self-perfection. (kara = empty)",
+		"hist_p10": "From the early 1950's several karate groups started experimenting with freestyle matches in a competition format. In 1957 the Japan Karate Association organised the first official “All Japan Championship”. Mr. Kanazawa Hirokazu took first place in kumite.",
+		"hist_p11": "From the beginning of the 1960's, most karate organizations dispatched instructors all over the world. Mr. Kanazawa Hirokazu was first send to Hawai and later on to Europe to teach “Shōtōkan karate”."
+	},
+	"dojos": [
+		{
+			"id": "1001",
+			"hombuDojo": {
+				"schedules": {
+					"monday": ["Monday: ", "Adults (+13 years) ONLY Black belts"],
+					"tuesday": ["Tuesday: ", "from 19:30 to 21:00 ANY Black belts"],
+					"wednesday": ["Wednesday: ", "from 14:00 to 15:00 Beginners (+6 years)", "from 15:00 to 16:00 Children Orange belt and above"],
+					"thursday": ["Thursday: ", "from 19:30 to 21:00 Adults (+13 years)"],
+					"friday": ["Friday: ", "from 19:30 to 21:00 Kumite training (minimum 12 years & Blue belt)"],
+					"saturday": [],
+					"sunday": [
+						"Sunday: ",
+						"from 10:00 to 11:00 Children & Adults Beginners - General class",
+						"from 11:00 to 12:00 Children & Adults Orange belt and above General lesson",
+						"from 12:00 to 13:30 Children & Adults Brown & Black belts General lesson"
+					]
+				}
+			}
+		}
+	],
+	"karateka": {
+		"referee": "Referee",
+		"nationalLevel": "Belgium ",
+		"internationalLicenceKata": "International licence Kata ",
+		"internationalLicenceKumite": "International licence Kumite "
+	},
+
+	"karate_concept": {
+		"concept_h1": "CONCEPTS OF SHŌTŌKAN KARATE-DŌ",
+
+		"concept_p1": "Although karate was born in Okinawa and was influenced a lot by Chinese martial arts, we can say that “Shōtōkan Karate” has evolved both technically and spiritually to a 100%, Japanese art/sport.",
+		"concept_p1bis": "Its philosophy is based on the traditional “Budō” spirit of Japan. Like kendō, judō, aikidō, etc….",
+		"concept_p1ter": "The ultimate goal is the perfection of character through hard training and discipline.",
+
+		"concept_p2": "When interacting with others, “rei” (bowing) serves as a means of initially displaying respect for a person’s character, contributes to well-balanced relationships between people and provides a way for preserving social order. “Setsu” (principles) represent the proper etiquette for expressing this concept.",
+		"concept_p3": "It is essential that those who practise karate maintain a deep natural understanding of “rei” and act in strict accordance to the code of “setsu”.",
+		"concept_p4": "SKIF karate seeks for the healthy mental and physical growth of youth and peaceful international exchange through training and tournaments.",
+		"concept_p5": "The technical system of karate-dō consist of the following :",
+
+		"concept_p6": "Kihon waza ",
+		"concept_p6bis": "(fundamental techniques)",
+		"concept_p6ter": "Executed by standing firmly with a balanced posture, kihon-waza is performed without deviating from the correct movements. Training encompasses: tachigata (stances), keriwaza (kicks), tsukiwaza (thrusts), atemiwaza (smashes), ukewaza (blocks).",
+		"concept_p6quater": "These kihon techniques can be done from a stationary position (sonoba-kihon) or moving in all directions (ido-kihon).",
+
+		"concept_p7": "Kata ",
+		"concept_p7bis": "(individual practise of form)",
+		"concept_p7ter": "Kata (individual practise of form) As since ancient times it was not always possible to train with a partner, individual practise methods were developed in the form of “kata”.",
+
+		"concept_p8": "Kata are prescribed sets of movements that employ all kinds of techniques in predetermined sequences. Almost all of the kata start with an initial block in accordance with Funakoshi Ō Sensei’s precept: ",
+		"concept_p8bis": "“there is no first attack in karate” ",
+		"concept_p8ter": "(karaté ni sente nashi).",
+		"concept_p8quater": "It has always been a typical oriental method of teaching the techniques and even secrets to the next generation of students. ",
+
+		"concept_p9": "Kata training is an ideal way: ",
+		"concept_p9bis": "- to stay healthy and fit (complete physical education/gymnastics)",
+		"concept_p9ter": "- to learn all kinds of specific techniques for self-defence",
+		"concept_p9quater": "- to use as an “art form” using your body and mind.",
+
+		"concept_p10": "In SKIF we study and practise the following kata:",
+		"concept_p10bis": "The 15 original kata introduced by Funakoshi Ō Sensei: ",
+		"concept_p10ter": "5 heian kata, 3 tekki kata, bassai-dai, kanku-dai, jion, enpi, jitte, gankaku & hangetsu",
+		"concept_p10quater": "Another eleven kata that were brought in the Shōtōkan karate system by senior students of Funakoshi Ō Sensei.",
+		"concept_p10quinquies": "Bassai-shō, kanku-shō, ji'in, chinte, wankan, unsu, gojushihō-dai, gojushihō-shō, meikyō, nijushihō, Sōchin.",
+		"concept_p10sexies": "These fifteen + eleven kata are the “Shōtōkan” kata.",
+
+		"concept_p11": "Later on and additionally Kanazawa Soke introduced some extra kata in the SKIF kata syllabus:",
+		"concept_p11bis": "Seienchin, sepai, koryu gankaku (gankaku-shō), nijuhachi.",
+		"concept_p11ter": "These kata are to be studied by the senior students or instructors of SKIF.",
+
+		"concept_p12": "Kumite ",
+		"concept_p12bis": "(sparring exercises)",
+		"concept_p12ter": "Executing techniques of offence and defence with a partner. An in-bound rule exists in which practitioners must always maintain self-control regardless of what happens in the exchange of techniques and refrain from becoming emotional or seeking to hurt the opponent. ",
+
+		"concept_p13": "This is part of the basic philosophy of karate-dō. Most people think kumite is “free sparring”, but there are many kinds of kumite. Free sparring is just one of them.",
+		"concept_p14": "Kanazawa Soke devised a comprensive kumite syllabus that is used during the training. Each kind of kumite has a different purpose, so practising all of them regularly is very important.",
+
+		"concept_p15": "Kumite can be divided in 2 main categories :",
+		"concept_p15bis": "Yakusoku kumite ",
+		"concept_p15bisBis": "(promise(d) sparring, meaning that the attack is announced or known to the defender).",
+		"concept_p15ter": "- Tanren kumite: ",
+		"concept_p15terBis": "gohon kumite & sanbon kumite",
+		"concept_p15quater": "- Kihon kumite: ",
+		"concept_p15quaterBis": "kihon ippon kumite & kaeshi ippon kumite",
+		"concept_p15quinquies": "- Yakusoku jiyu kumite: ",
+		"concept_p15quinquiesBis": "jiyu ippon kumite & okuri jiyu ippon kumite",
+		"concept_p15sexies": "- Kiso kumite: ",
+		"concept_p15sexiesBis": "kumite fondamental",
+		"concept_p15septies": "- Oyo kumite: ",
+		"concept_p15septiesBis": "happo kumite & kumite gata",
+
+		"concept_p16": "Jiyu kumite ",
+		"concept_p16bis": "(free sparring)",
+		"concept_p16ter": "- kyogi kumite: ",
+		"concept_p16terBis": "for tournaments (sport/rules)",
+		"concept_p16quater": "- shiai kumite: ",
+		"concept_p16quaterBis": "for dojo sparring (budō)",
+
+		"concept_p17": "Conclusion: ",
+		"concept_p18": "Training in karate-dō is sometimes hard and the goals are not always clear. Perseverance and hard work allow the practitioner to push their physical and mental boundaries and nurture a sence of mutual respect and consideration for the feelings of others.",
+		"concept_p19": "Karate-dō, as a form of “human education”, promotes discipline and character development. This is what makes karate a “Dō” or a “Way” of life for the practitioner.",
+		"concept_p20": "It can be studied by all people of all ages. The goal of karate-dō, as with other budō arts, is not to beat the opponent to satisfy one’s own ego, but to overcome one’s own shortcomings and to live in “harmony” with oneself and others."
+	}
 }
