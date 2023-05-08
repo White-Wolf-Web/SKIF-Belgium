@@ -104,7 +104,8 @@
 		"terms_p_3_6": "Les karatékas dont la licence n'est pas valide se verront refuser la participation aux activités de la fédération.",
 		"terms_p_3_7": "Les karatékas, qui paient et/ou renouvellent leur licence, ne peuvent pas réclamer le montant payé pour quelque raison que ce soit.",
 		"terms_h2_4": "Fin de l'adhésion",
-		"terms_p_4_1": "Lorsqu'un membre souhaite mettre fin à son adhésion à SKIF-B, il doit cesser de payer la cotisation à la réception du courriel de renouvellement de la cotisation. Le non-paiement de la cotisation place automatiquement le membre en statut non actif dans la base de données des membres. Après une période de cinq ans en tant que membre non actif, toutes les données du membre seront automatiquement supprimées de la base de données des membres de SKIF-B (voir également la politique de confidentialité)."
+		"terms_p_4_1": "Lorsqu'un membre souhaite mettre fin à son adhésion à SKIF-B, il doit cesser de payer la cotisation à la réception du courriel de renouvellement de la cotisation. Le non-paiement de la cotisation place automatiquement le membre en statut non actif dans la base de données des membres. Après une période de cinq ans en tant que membre non actif, toutes les données du membre seront automatiquement supprimées de la base de données des membres de SKIF-B (voir également la politique de confidentialité).",
+		"download_button": "Téléchargez le Document"
 	},
 	"history": {
 		"hist_h1": "HISTOIRE",

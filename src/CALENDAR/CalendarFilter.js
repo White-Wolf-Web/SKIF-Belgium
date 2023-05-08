@@ -4,12 +4,14 @@ import DropdownProvince from "./DropdownProvince";
 import DropdownCategory from "./DropdownCategory";
 
 
-export default function CalendarFilter() {
+export default function FilterContainer({ onClubSelected, onProvinceSelected, onCategorySelected }) {
     return (
         <div className="calendarFilterContainer">
-          <DropdownClub />
-          <DropdownProvince />
-          <DropdownCategory />
+          <DropdownClub onClubSelected={onClubSelected} />
+      <DropdownProvince onProvinceSelected={onProvinceSelected} />
+      <DropdownCategory onCategorySelected={onCategorySelected} />
         </div>
       );
     }
+
+

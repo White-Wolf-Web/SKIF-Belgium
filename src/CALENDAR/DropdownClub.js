@@ -12,7 +12,7 @@ const fetchClubs = async () => {
   }
 };
 
-export default function DropdownClub() {
+export default function DropdownClub({ onClubSelected }) {
   const [selectedClub, setSelectedClub] = useState("");
   const [clubs, setClubs] = useState(null);
 
@@ -35,17 +35,20 @@ export default function DropdownClub() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        {clubs &&
-          clubs.map((club, index) => (
-            <Dropdown.Item
-              key={index}
-              onClick={() => {
-                setSelectedClub(club);
-              }}
-            >
-              {club}
-            </Dropdown.Item>
-          ))}
+      {clubs &&
+        clubs.map((club, index) => (
+          <Dropdown.Item
+            key={index}
+            onClick={() => {
+              setSelectedClub(club);
+              if (onClubSelected) {
+                onClubSelected(club);
+              }
+            }}
+          >
+            {club}
+          </Dropdown.Item>
+        ))}
       </Dropdown.Menu>
     </Dropdown>
   );

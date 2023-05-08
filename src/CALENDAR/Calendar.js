@@ -1,12 +1,13 @@
 import "./Calendar.css";
 import Accordion from "react-bootstrap/Accordion";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 //import CalendarPoster from "./CalendarPoster";
 import CalendarPdf from "./CalendarPdf";
 import "../i18n";
 import FilterContainer from "./CalendarFilter";
 import Loader from "../UTILS/Loader.js";
+
 
 export default function Calendar(props) {
 	const { t } = useTranslation();
@@ -28,17 +29,43 @@ export default function Calendar(props) {
 		}
 		fetchData();
 	}, []);
+// TRI 
+const [selectedClub, setSelectedClub] = useState(null);
+const [selectedProvince, setSelectedProvince] = useState(null);
+
+const handleClubSelected = (club) => {
+  setSelectedClub(club);
+};
+
+const handleProvinceSelected = (province) => {
+  setSelectedProvince(province);
+};
+
+const filteredItems = useMemo(() => {
+  let result = items;
+
+  if (selectedClub) {
+	result = result.filter((item) => item.club === selectedClub);
+  }
+
+  if (selectedProvince) {
+	result = result.filter((item) => item.addressProvince === selectedProvince);
+  }
+
+  return result;
+}, [items, selectedClub, selectedProvince]);
+
 
 	return (
 		<main>
 			<h1>{t("federal_calendar.h1")}</h1>
-			<FilterContainer />
+			<FilterContainer onClubSelected={handleClubSelected} onProvinceSelected={handleProvinceSelected} />
 			<div className="calendarReact">
 				{loading ? (
 					<Loader />
 				) : (
 					<div className="calendarAccordion">
-						{items.map((item) => (
+					{filteredItems.map((item) => (
 							<Accordion defaultActiveKey="false" key={item.id} flush>
 								<Accordion.Item eventKey="0">
 									<Accordion.Header>

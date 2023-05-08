@@ -104,7 +104,8 @@
 		"terms_p_3_6": "Karatekas whose license is not valid will be refused from participation in activities of the federation.",
 		"terms_p_3_7": "Karatekas, who pay and/or renew their license, cannot reclaim the amount paid for whatever reason.",
 		"terms_h2_4": "Ending membership",
-		"terms_p_4_1": "When a member wishes to terminate his/her SKIF-B membership, he/she must stop paying the membership fee upon receipt of the renewal fee e-mail. Non-payment of the membership fee automatically puts the member on non-active status in the membership database. After a period of five years as a non-active member, all data of the member will automatically be removed from the SKIF-B member database (see also the Privacy Policy)."
+		"terms_p_4_1": "When a member wishes to terminate his/her SKIF-B membership, he/she must stop paying the membership fee upon receipt of the renewal fee e-mail. Non-payment of the membership fee automatically puts the member on non-active status in the membership database. After a period of five years as a non-active member, all data of the member will automatically be removed from the SKIF-B member database (see also the Privacy Policy).",
+		"download_button": "Download the Document"
 	},
 	"history": {
 		"hist_h1": "HISTORY",

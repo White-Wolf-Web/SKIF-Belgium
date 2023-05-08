@@ -18,8 +18,8 @@ export default function CalendarPdf(props) {
 		}
 		fetchData();
 	}, []);
-  console.log(items.linkPdf);
-  console.log(urlPdf);
+  //console.log(items.linkPdf);
+  //console.log(urlPdf);
 //console.log(items);
 	return (
     <div>

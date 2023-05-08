@@ -9,6 +9,12 @@
 .text-center {
     text-align: center;
 }
+.p-margin-0 {
+  margin: 0;
+}
+.aLaLigneFaibleMarge {
+  margin-bottom: 5px;
+}
 .p-reduit {
     margin-top: 3px; /* Ajustez cette valeur selon l'espace souhaité */
     margin-bottom: 0px; /* Ajustez cette valeur selon l'espace souhaité */
@@ -17,7 +23,7 @@
     margin-bottom: 3px;
   }
   .p-margin-bottom5 {
-    margin-bottom: 5px;
+    margin-bottom: 50px;
   }
   .p-margin-bottom8 {
     margin-bottom: 8px;
@@ -25,3 +31,31 @@
   .ul-reduit {
     padding-left: 10px!important; /* Ajustez cette valeur selon la marge souhaitée */
   }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+  }
+  
+  .download-button {
+    display: flex;
+    justify-content:center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: var(--primaryColor);
+    color: #ffffff;
+  }
+  
