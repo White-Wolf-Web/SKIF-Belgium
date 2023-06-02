@@ -21,7 +21,8 @@
 		"important_points": "Important points during seminars & training",
 		"statutes": "Statutes",
 		"who_s_who": "Who’s who",
-		"photo_gallery": "Photo gallery"
+		"photo_gallery": "Photo gallery",
+		"Internal_regulations": "Internal regulations"
 	},
 	"footer": {
 		"becoming_a_member": " Become a member of SKIF-B",
@@ -32,6 +33,19 @@
 		"dojo": "Dojos",
 		"legal_notice": "Legal notice",
 		"privacy_policy": " Privacy policy"
+	},
+	"contactModal" : {
+"contactUs" : "Contact Us",
+"email" : "E-mail",
+"name" : "Name",
+"FirstName" : "First Name",
+"phone" : "Phone",
+"message": "Message",
+"send": "Send",
+"close": "Close",
+"chairman": "Chairman",
+"chief": "Chief",
+"treasurer": "Treasurer"
 	},
 	"home": {
 		"title": "Shotokan Karate-do International Federation - Belgium",
@@ -52,7 +66,10 @@
 		"location": "Location : ",
 		"adress": "Adress : ",
 		"contact": "Contact : ",
-		"mail": "E-mail : "
+		"mail": "E-mail : ",
+		"select_a_club" : "select a club",
+		"Select_a_province" : "Select a province" ,
+		"Select_a_category" : "Select a category" 
 	},
 	"country": "Belgium",
 	"weekDays": {
@@ -120,6 +137,13 @@
 		"hist_p9": "University clubs were at the forefront of karate’s popularisation in mainland Japan. The educational potential of karate was soon acknowledged, and its designation was changed to “karate-dō” to underscore its moral education, and its potential as means for self-perfection. (kara = empty)",
 		"hist_p10": "From the early 1950's several karate groups started experimenting with freestyle matches in a competition format. In 1957 the Japan Karate Association organised the first official “All Japan Championship”. Mr. Kanazawa Hirokazu took first place in kumite.",
 		"hist_p11": "From the beginning of the 1960's, most karate organizations dispatched instructors all over the world. Mr. Kanazawa Hirokazu was first send to Hawai and later on to Europe to teach “Shōtōkan karate”."
+	},
+	"dojokun" : {
+"1" : "One (thing) - Seek for a complete character.",
+"2" : "One (thing) - Walk on the path of sincerity.",
+"3" : "One (thing) - Cultivate the spirit of perseverance",
+"4" : "One (thing) - Honor the principles of etiquette.",
+"5" : "One (thing) - Guard against hard-blooded behavior."
 	},
 	"dojos": [
 		{

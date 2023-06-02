@@ -56,7 +56,8 @@ footer ul li {
 }
 .logoSkifWorld {
 	display: none;
-	height: 175px;
+	height: 175px !important;
+	width: 175px !important;
 	margin-top: auto;
 	margin-bottom: auto;
 }
@@ -75,6 +76,15 @@ footer a:hover {
 	display: flex;
 	justify-content: center;
 }
+
+.link-button {
+	background: none!important;
+	border: none;
+	padding: 0!important;
+	cursor: pointer;
+	color: var(--secondaryColor);
+  }
+  
 
 @media all and (min-width: 600px) {
 	.logoSkifWorld {

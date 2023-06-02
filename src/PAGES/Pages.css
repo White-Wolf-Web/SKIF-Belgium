@@ -1,61 +1,85 @@
 .history-okinawa {
-    display:flex;
-   
+	display: flex;
 }
 .history-okinawa img {
-    float: left;
- margin : 0 20px 10px 0;
+	float: left;
+	margin: 0 20px 10px 0;
 }
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 .p-margin-0 {
-  margin: 0;
+	margin: 0;
 }
 .aLaLigneFaibleMarge {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 .p-reduit {
-    margin-top: 3px; /* Ajustez cette valeur selon l'espace souhaité */
-    margin-bottom: 0px; /* Ajustez cette valeur selon l'espace souhaité */
-  }
-  .p-margin-bottom3 {
-    margin-bottom: 3px;
-  }
-  .p-margin-bottom5 {
-    margin-bottom: 50px;
-  }
-  .p-margin-bottom8 {
-    margin-bottom: 8px;
-  }
-  .ul-reduit {
-    padding-left: 10px!important; /* Ajustez cette valeur selon la marge souhaitée */
-  }
+	margin-top: 3px; /* Ajustez cette valeur selon l'espace souhaité */
+	margin-bottom: 0px; /* Ajustez cette valeur selon l'espace souhaité */
+}
+.p-margin-bottom3 {
+	margin-bottom: 3px;
+}
+.p-margin-bottom5 {
+	margin-bottom: 50px;
+}
+.p-margin-bottom8 {
+	margin-bottom: 8px;
+}
+.ul-reduit {
+	padding-left: 10px !important; /* Ajustez cette valeur selon la marge souhaitée */
+}
 
-  .button-container {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px;
-  }
+.button-container {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+}
+
+.download-button {
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: var(--secondaryColor);
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.download-button:hover {
+	background-color: var(--primaryColor);
+	color: #ffffff;
+}
+.kanjis {
+	writing-mode: vertical-rl;
+	display: block;
+	margin: 10px auto;
+}
+.kanjisMiddle {
+	display: flex;
+	justify-content: center !important;
+}
+.kanjis p {
+	font-weight: 700;
+	--couleur: 0, 0, 0;
+	margin: 1rem auto 2rem auto;
+	display: flex;
+	justify-content:flex-start;
+	font-family: "Exo";
+	color: white;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #acacac, 0 3px 0 #a0a0a0, 0 4px 0 #9b9a9a, 0 5px 0 #888787, 0 6px 1px rgba(var(--couleur), 0.1), 0 0 5px rgba(var(--couleur), 0.1),
+		0 1px 3px rgba(var(--couleur), 0.3), 0 3px 5px rgba(var(--couleur), 0.3), 0 5px 10px rgba(var(--couleur), 0.25), 0 10px 10px rgba(var(--couleur), 0.2),
+		0 20px 20px rgba(var(--couleur), 0.15);
+	font-size: 60px;
+}
+.alignCenter {
+	text-align: center;
   
-  .download-button {
-    display: flex;
-    justify-content:center;
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-color: var(--secondaryColor);
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .download-button:hover {
-    background-color: var(--primaryColor);
-    color: #ffffff;
-  }
-  
+}

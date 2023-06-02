@@ -1,0 +1,20 @@
+.contact-form-group {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .contact-form-group .form-check {
+    font-size: 1rem !important; /* !important pour s'assurer que le style est appliqué */
+    display: flex;
+  align-items: center; /* Ajouté pour aligner verticalement le texte et le bouton radio */
+  }
+  
+  .contact-form-group .form-check input[type='radio'] {
+    transform: scale(0.4); /* Réduit la taille du bouton radio */
+  }
+  
+  .contact-form-group .form-check label {
+    font-size: 1rem !important; /* !important pour s'assurer que le style est appliqué */
+  }
+  

@@ -13,7 +13,6 @@ const fetchCategories = async () => {
 	}
 };
 
-
 export default function DropdownCategory({ onCategorySelected }) {
 	const [selectedCategory, setSelectedCategory] = useState("");
 	const [categories, setCategories] = useState(null);
@@ -48,24 +47,25 @@ export default function DropdownCategory({ onCategorySelected }) {
 	return (
 		<Dropdown>
 			<Dropdown.Toggle variant="primary" id="dropdown-basic">
-				{selectedCategory || t("Sélectionnez une catégorie")}
+				{selectedCategory || t("federal_calendar.Select_a_category")} 
 			</Dropdown.Toggle>
 
 			<Dropdown.Menu>
-      {categories &&
-	categories.map((category, index) => (
-		<Dropdown.Item
-			key={index}
-			onClick={() => {
-				setSelectedCategory(getCategoryTitle(category));
-				if (onCategorySelected) {
-					onCategorySelected(category.id);
-				}
-			}}
-		>
-			{getCategoryTitle(category)}
-		</Dropdown.Item>
-	))}
+				{categories &&
+					categories.map((category, index) => (
+						<Dropdown.Item
+							key={index}
+							onClick={() => {
+								console.log("Category selected: ", category);
+								setSelectedCategory(getCategoryTitle(category));
+								if (onCategorySelected) {
+									onCategorySelected(category.id);
+								}
+							}}
+						>
+							{getCategoryTitle(category)}
+						</Dropdown.Item>
+					))}
 			</Dropdown.Menu>
 		</Dropdown>
 	);

@@ -27,6 +27,13 @@
     margin-right: auto;
     margin-bottom: 30px;
 }
+.dojoShedulesBis {
+    background-color: white !important;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
 
 .dojoShedules li:first-child {
     font-family: Baskerville;
@@ -39,6 +46,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+.dojoContactBis {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white !important;
 }
 .dojoContact p {
     font-family: Baskerville;
@@ -76,6 +90,13 @@ display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+.dojoAdressCardBis {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: white;
 }
 .dojoAddress {
     font-weight: 700;

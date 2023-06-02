@@ -21,7 +21,8 @@
 		"important_points": "Points importants lors des séminaires & entrainements",
 		"statutes": "Statuts",
 		"who_s_who": "Qui est qui",
-		"photo_gallery": "Galerie de photos"
+		"photo_gallery": "Galerie de photos",
+		"Internal_regulations": "Règlement intérieur"
 	},
 	"footer": {
 		"becoming_a_member": " Devenir Membre SKIF",
@@ -33,6 +34,19 @@
 		"legal_notice": "Mentions légales",
 		"privacy_policy": " Politique de confidentialité"
 	},
+	"contactModal" : {
+		"contactUs" : "Nous Contacter",
+		"email" : "E-mail",
+		"name" : "Nom",
+		"FirstName" : "Prénom",
+		"phone" : "Téléphone",
+		"message": "Message",
+		"send": "Envoyer",
+		"close": "Fermer",
+		"chairman": "Président",
+		"chief": "Chef",
+		"treasurer": "Trésorier"
+			},
 	"home": {
 		"title": "Shotokan Karate-do International Federation - Belgique",
 		"section1_h2": "Bienvenue à SKIF-B",
@@ -52,8 +66,12 @@
 		"location": "Lieu : ",
 		"adress": "Adresse : ",
 		"contact": "Contact : ",
-		"mail": "Email : "
-	},
+		"mail": "Email : ",
+		"select_a_club" : "Sélectionner un club",
+		"Select_a_province" : "Sélectionner une province" ,
+		"Select_a_category" : "Sélectionner une catégorie" 
+		
+ 	},
 	"country": "Belgique",
 	"weekDays": {
 		"monday": "Lundi: ",
@@ -121,6 +139,13 @@
 		"hist_p10": "Dès le début des années 1950, plusieurs groupes de karaté ont commencé à expérimenter les matchs de style libre dans un format de compétition. En 1957, l'Association japonaise de karaté a organisé le premier 'Championnat du Japon' officiel. M. Kanazawa Hirokazu a remporté la première place en kumite.",
 		"hist_p11": "Dès le début des années 1960, la plupart des organisations de karaté ont dépêché des instructeurs dans le monde entier. M. Kanazawa Hirokazu a d'abord été envoyé à Hawaï, puis en Europe, pour enseigner le 'Shōtōkan karaté'."
 	},
+	"dojokun" : {
+		"1" : "Une (chose) - Chercher à avoir un caractère complet.",
+		"2" : "Une (chose) - Marcher sur le chemin de la sincérité.",
+		"3" : "Une (chose) - Cultiver l'esprit de persévérance.",
+		"4" : "Une (chose) - Honorer les principes de l'étiquette.",
+		"5" : "Une (chose) - Se prémunir contre la dureté du sang."
+			},
 	"dojos": [
 		{
 			"id": "1001",

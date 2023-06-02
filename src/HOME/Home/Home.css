@@ -9,8 +9,69 @@
 .japaneseKanjiSkifb {
    text-align: center;
    font-weight: 700;
+   --couleur:0, 0, 0;
+margin: 2rem auto;
+display: flex;
+justify-content: center;
+font-family: 'Exo';
+color: white;
+text-shadow: 
+0 1px 0 #ccc, 
+0 2px 0 #acacac,
+0 3px 0 #a0a0a0,
+0 4px 0 #9b9a9a,
+0 5px 0 #888787,
+0 6px 1px rgba(var(--couleur),.1),
+0 0 5px rgba(var(--couleur),.1),
+0 1px 3px rgba(var(--couleur),.3),
+0 3px 5px rgba(var(--couleur),.3),
+0 5px 10px rgba(var(--couleur),.25),
+0 10px 10px rgba(var(--couleur),.2),
+0 20px 20px rgba(var(--couleur),.15);
+font-size: 20px;
 }
 .homeH1 {
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.nextEventButton {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    font-size: 30px;
+    font-weight: bold;
+  height: 90px;
+   padding: 10px;
+    border-radius: 4px;
+    margin: 0 auto 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.nextEventCloseModal {
+
+    position: absolute;
+    bottom: 10px;
+    right:10px
+}
+.picBottomSection {
+    width: 330px;
+    height: auto;
+    box-shadow: 1px 3px 10px 5px #000
+}
+.bottomSection {
+    display: flex;
+    width: 100%;
+  align-items: flex-end;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+  
+}
+.sousSectionBottomSection {
+
+height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

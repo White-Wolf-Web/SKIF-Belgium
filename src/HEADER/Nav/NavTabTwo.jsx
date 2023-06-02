@@ -31,6 +31,7 @@ export default function NavTabTwo() {
         <Dropdown.Item>Kanazawa Soke</Dropdown.Item>
         <Dropdown.Item>Kanazawa Kancho</Dropdown.Item>
         <Dropdown.Item>Murakami Manabu</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/dojokun">Dojo Kun</Dropdown.Item>
         <Dropdown.Item>SKIEF</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>

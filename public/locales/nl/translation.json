@@ -21,7 +21,8 @@
 		"important_points": "Belangrijke punten tijdens seminaries & training",
 		"statutes": "Statuten",
 		"who_s_who": "Wie is wie",
-		"photo_gallery": "Foto galerij"
+		"photo_gallery": "Foto galerij",
+		"Internal_regulations": "Reglement van orde"
 	},
 	"footer": {
 		"becoming_a_member": " Lid worden bij SKIF-B",
@@ -33,6 +34,19 @@
 		"legal_notice": "Juridische kennisgeving",
 		"privacy_policy": " Privacybeleid"
 	},
+	"contactModal" : {
+		"contactUs" : "Contacteer Ons",
+		"email" : "E-mail",
+		"name" : "Naam",
+		"FirstName" : "Voornaam",
+		"phone" : "Telefoon",
+		"message": "Boodschap",
+		"send": "Opgestuurd",
+		"close": "Sluit",
+		"chairman": "Voorzitter",
+		"chief": "Hoofd",
+		"treasurer": "Treasurer"
+			},
 	"home": {
 		"title": "Shotokan Karate-do International Federation - België",
 		"section1_h2": "Welkom bij SKIF-B",
@@ -52,7 +66,10 @@
 		"location": "Locatie : ",
 		"adress": "Adres : ",
 		"contact": "Contact : ",
-		"mail": "Mail : "
+		"mail": "Mail : ",
+		"select_a_club" : "Selecteer een club",
+		"Select_a_province" : "Selecteer een provincie" ,
+		"Select_a_category" : "Selecteer een categorie" 
 	},
 	"country": "België",
 	"weekDays": {
@@ -122,6 +139,13 @@
 		"hist_p10": "Vanaf het begin van de jaren 1950 begonnen verschillende karate groepen te experimenteren met freestyle wedstrijden in een wedstrijd format. In 1957 organiseerde de Japan Karate Association het eerste officiële 'Kampioenschap van Japan'. Mr. Kanazawa Hirokazu behaalde de eerste plaats in kumite.",
 		"hist_p11": "Vanaf het begin van de jaren 1960, zonden de meeste karate organisaties instructeurs uit over de hele wereld. Mr. Kanazawa Hirokazu werd eerst naar Hawai gestuurd en later naar Europa om 'Shōtokan karate' te onderwijzen."
 	},
+	"dojokun" : {
+		"1" : "Een (ding) - Zoek naar een volledig karakter.",
+		"2" : "Eén ding - bewandel het pad van oprechtheid.",
+		"3" : "Eén ding - Cultiveer de geest van volharding.",
+		"4" : "Eén ding - Respecteer de principes van etiquette.",
+		"5" : "Een (ding) - Waak voor hardvochtig gedrag."
+			},
 	"dojos": [
 		{
 			"id": "1001",

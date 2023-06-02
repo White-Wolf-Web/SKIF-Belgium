@@ -1,4 +1,3 @@
-// utils/handleDocumentDownload.js
 
 export const handleDocumentDownload = async (documentId, language = 'fr') => {
   try {

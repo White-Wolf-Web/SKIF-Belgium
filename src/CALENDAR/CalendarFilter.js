@@ -10,7 +10,9 @@ export default function FilterContainer({ onClubSelected, onProvinceSelected, on
           <DropdownClub onClubSelected={onClubSelected} />
       <DropdownProvince onProvinceSelected={onProvinceSelected} />
       <DropdownCategory onCategorySelected={onCategorySelected} />
+      
         </div>
+        
       );
     }
 
